@@ -1,0 +1,7 @@
+# APP-Procesamiento
+Lanzar la aplicación ejecutando el comando.
+```bash
+python main.py
+```
+
+Para conocer cómo utilizar el programa: [Manual de la aplicación](https://github.com/gaboandres1/GPR-Uniandes/blob/main/manuales/Manual_APP_Procesamiento.pdf).

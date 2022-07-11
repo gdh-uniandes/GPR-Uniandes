@@ -1,0 +1,8 @@
+pyserial
+pyqt5
+numpy
+scipy
+matplotlib
+mayavi
+numba
+python-vxi11

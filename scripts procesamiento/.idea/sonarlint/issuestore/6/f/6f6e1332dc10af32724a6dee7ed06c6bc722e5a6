@@ -1,0 +1,140 @@
+
+”python:S1192ð"tDefine a constant instead of duplicating this literal "El archivo seleccionado no estÃ¡ en el formato .h5." 3 times.(þ„Û‘8»ðñðØ/
+žpython:S1192ß"~Define a constant instead of duplicating this literal "Ha ocurrido un error desconocido, por favor intente de nuevo." 6 times.(ÜÏÓÒ8½ðñðØ/
+špython:S1192à"uDefine a constant instead of duplicating this literal "An exception of type {0} occurred. Arguments:\n{1!r}" 8 times.(³¨üýÿÿÿÿ8ÀðñðØ/
+opython:S116‚"PRename this field "filePath" to match the regular expression ^[_a-z][_a-z0-9]*$.(¥ÿ…8ÀðñðØ/
+ypython:S116Ë"URename this field "gridLayout_13" to match the regular expression ^[_a-z][_a-z0-9]*$.(òª§ìùÿÿÿÿ8ÁðñðØ/
+ypython:S116š"ZRename this field "groupBox_migration" to match the regular expression ^[_a-z][_a-z0-9]*$.(™¶‘ä8ÁðñðØ/
+zpython:S116±"VRename this field "groupBox_cscan" to match the regular expression ^[_a-z][_a-z0-9]*$.(ÐŽÅ«üÿÿÿÿ8ÂðñðØ/
+rpython:S116@"TRename this field "gridLayout_3" to match the regular expression ^[_a-z][_a-z0-9]*$.(Å™ƒ¬8ÃðñðØ/
+|python:S116Ý"]Rename this field "label_rawFilePathPlot" to match the regular expression ^[_a-z][_a-z0-9]*$.(äÆ†8ÄðñðØ/
+xpython:S116Ó"YRename this field "label_bScanCoords" to match the regular expression ^[_a-z][_a-z0-9]*$.(šŽñú8ÄðñðØ/
+…python:S116¨"aRename this field "comboBox_polarizationAxis" to match the regular expression ^[_a-z][_a-z0-9]*$.(§éè½øÿÿÿÿ8ÅðñðØ/
+zpython:S116X"\Rename this field "lineEdit_rawFileName" to match the regular expression ^[_a-z][_a-z0-9]*$.(«¹±ª8ÆðñðØ/
+|python:S116"^Rename this field "toolButton_rawFilePath" to match the regular expression ^[_a-z][_a-z0-9]*$.(øø8ÆðñðØ/
+†python:S1169"cRename this field "groupBox_backgroundRemotion" to match the regular expression ^[_a-z][_a-z0-9]*$.(‰«®üÿÿÿÿ8ÆðñðØ/
+‚python:S116ã"^Rename this field "label_bScanCoordsUnits" to match the regular expression ^[_a-z][_a-z0-9]*$.(ÊÔË´ÿÿÿÿÿ8ÇðñðØ/
+zpython:S116˜"VRename this field "label_filePath" to match the regular expression ^[_a-z][_a-z0-9]*$.(ãØ•þøÿÿÿÿ8ÈðñðØ/
+wpython:S116V"TRename this field "gridLayout_2" to match the regular expression ^[_a-z][_a-z0-9]*$.(‚Ñ×çøÿÿÿÿ8ÈðñðØ/
+„python:S116’"eRename this field "toolButton_backgroundFilePath" to match the regular expression ^[_a-z][_a-z0-9]*$.(±°Ð8ÉðñðØ/
+{python:S116Û"\Rename this field "pushButton_migration" to match the regular expression ^[_a-z][_a-z0-9]*$.(ÉŒœ¹8ÊðñðØ/
+xpython:S116ï"YRename this field "label_aScanXUnits" to match the regular expression ^[_a-z][_a-z0-9]*$.(¤ïÉ‡8ÊðñðØ/
+ƒpython:S116Š"_Rename this field "lineEdit_backgroundPath" to match the regular expression ^[_a-z][_a-z0-9]*$.(×ñôŒýÿÿÿÿ8ËðñðØ/
+zpython:S116ê"[Rename this field "frame_SeleccionRuta" to match the regular expression ^[_a-z][_a-z0-9]*$.(–Ü‹ð8ÌðñðØ/
+†python:S116‡"bRename this field "rawFilePathPlotComparation" to match the regular expression ^[_a-z][_a-z0-9]*$.(„‘†ªýÿÿÿÿ8ÌðñðØ/
+vpython:S116†"WRename this field "rawFilePathPlot" to match the regular expression ^[_a-z][_a-z0-9]*$.(°½´ó8ÍðñðØ/
+ypython:S116Ž"ZRename this field "label_aScanXCoords" to match the regular expression ^[_a-z][_a-z0-9]*$.(’ÇôÔ8ÎðñðØ/
+wpython:S1167"TRename this field "gridLayout_6" to match the regular expression ^[_a-z][_a-z0-9]*$.(æÇ¢õûÿÿÿÿ8ÏðñðØ/
+upython:S116„"VRename this field "backgroundPath" to match the regular expression ^[_a-z][_a-z0-9]*$.(ã»©ö8ÏðñðØ/
+€python:S116¯"\Rename this field "pushButton_aScanPlot" to match the regular expression ^[_a-z][_a-z0-9]*$.(ÊÜ´¤ûÿÿÿÿ8ÐðñðØ/
+€python:S116î"\Rename this field "pushButton_bScanPlot" to match the regular expression ^[_a-z][_a-z0-9]*$.(ô‰Í‚ýÿÿÿÿ8ÑðñðØ/
+‡python:S116¾"cRename this field "lineEdit_dielectricConstant" to match the regular expression ^[_a-z][_a-z0-9]*$.(Á¨â¡ùÿÿÿÿ8ÑðñðØ/
+{python:S116Û"\Rename this field "lineEdit_bScanCoords" to match the regular expression ^[_a-z][_a-z0-9]*$.(Ï›½œ8ÑðñðØ/
+{python:S116€"\Rename this field "lineEdit_rawFilePath" to match the regular expression ^[_a-z][_a-z0-9]*$.(„×Ö‹8ÑðñðØ/
+tpython:S116¸"URename this field "gridLayout_16" to match the regular expression ^[_a-z][_a-z0-9]*$.(Œô¹Ï8ÒðñðØ/
+‚python:S116¥"^Rename this field "label_polarizationAxis" to match the regular expression ^[_a-z][_a-z0-9]*$.(ÕÌ×£úÿÿÿÿ8ÒðñðØ/
+tpython:S116¯"URename this field "gridLayout_17" to match the regular expression ^[_a-z][_a-z0-9]*$.(úùÅ8ÓðñðØ/
+xpython:S116¡"TRename this field "gridLayout_5" to match the regular expression ^[_a-z][_a-z0-9]*$.(†³Í£ûÿÿÿÿ8ÔðñðØ/
+python:S116Í"`Rename this field "lineEdit_rawFilePathPlot" to match the regular expression ^[_a-z][_a-z0-9]*$.(ä–î¥8ÕðñðØ/
+zpython:S116À"VRename this field "groupBox_bscan" to match the regular expression ^[_a-z][_a-z0-9]*$.(Ç¤œºùÿÿÿÿ8ÕðñðØ/
+ypython:S116÷"ZRename this field "label_aScanYCoords" to match the regular expression ^[_a-z][_a-z0-9]*$.(–Ñÿ8ÖðñðØ/
+tpython:S116Ç"URename this field "gridLayout_15" to match the regular expression ^[_a-z][_a-z0-9]*$.(Þ¯ÿ«8×ðñðØ/
+rpython:S116'"URename this field "gridLayout_19" to match the regular expression ^[_a-z][_a-z0-9]*$.(žÊÛ]8×ðñðØ/
+|python:S116Ÿ"]Rename this field "lineEdit_aScanYCoords" to match the regular expression ^[_a-z][_a-z0-9]*$.(¯“É™8ØðñðØ/
+ƒpython:S116B"eRename this field "pushButton_backgroundRemotion" to match the regular expression ^[_a-z][_a-z0-9]*$.(½›ðý8ÙðñðØ/
+rpython:S116ƒ"SRename this field "rawFilePath" to match the regular expression ^[_a-z][_a-z0-9]*$.(‘Õ¶³8ÚðñðØ/
+ypython:S116í"URename this field "gridLayout_14" to match the regular expression ^[_a-z][_a-z0-9]*$.(Çø™üÿÿÿÿ8ÚðñðØ/
+tpython:S116µ"URename this field "lineEdit_zini" to match the regular expression ^[_a-z][_a-z0-9]*$.(œÖº8ÚðñðØ/
+…python:S116ÿ"aRename this field "lineEdit_aScanComparePath" to match the regular expression ^[_a-z][_a-z0-9]*$.(»²–ùÿÿÿÿ8ÛðñðØ/
+„python:S116r"fRename this field "groupBox_bacgroundSubstarction" to match the regular expression ^[_a-z][_a-z0-9]*$.(¼”¹Ü8ÛðñðØ/
+„python:S116É"`Rename this field "label_dielectricConstant" to match the regular expression ^[_a-z][_a-z0-9]*$.(³è®ûÿÿÿÿ8ÛðñðØ/
+tpython:S116Ó"URename this field "lineEdit_zend" to match the regular expression ^[_a-z][_a-z0-9]*$.(ƒì«8ÜðñðØ/
+|python:S116§"]Rename this field "lineEdit_aScanXCoords" to match the regular expression ^[_a-z][_a-z0-9]*$.(ÒÇÌš8ÜðñðØ/
+xpython:S116ð"YRename this field "lineEdit_filePath" to match the regular expression ^[_a-z][_a-z0-9]*$.(‘Ü¹ð8ÝðñðØ/
+tpython:S116i"VRename this field "pushButton_IFT" to match the regular expression ^[_a-z][_a-z0-9]*$.(¨ÅÝ8ÝðñðØ/
+wpython:S116¢"XRename this field "groupBox_grafico" to match the regular expression ^[_a-z][_a-z0-9]*$.(ßÝ…¾8ÝðñðØ/
+rpython:S116O"URename this field "groupBox_ifft" to match the regular expression ^[_a-z][_a-z0-9]*$.(èßÜ`8ÞðñðØ/
+xpython:S116/"ZRename this field "groupBox_procesado" to match the regular expression ^[_a-z][_a-z0-9]*$.(ìÅöØ8ßðñðØ/
+}python:S116ˆ"YRename this field "label_rawFilePath" to match the regular expression ^[_a-z][_a-z0-9]*$.(´ÝÃñùÿÿÿÿ8àðñðØ/
+python:S116ø"[Rename this field "toolButton_filePath" to match the regular expression ^[_a-z][_a-z0-9]*$.(þ×ˆ¿ÿÿÿÿÿ8áðñðØ/
+python:S116–"]Rename this field "checkBox_aScanCompare" to match the regular expression ^[_a-z][_a-z0-9]*$.(Á®ÛÅùÿÿÿÿ8áðñðØ/
+python:S116Õ"bRename this field "toolButton_rawFilePathPlot" to match the regular expression ^[_a-z][_a-z0-9]*$.(å›²Ñ8âðñðØ/
+wpython:S116a"YRename this field "label_rawFileName" to match the regular expression ^[_a-z][_a-z0-9]*$.(íæ«ü8âðñðØ/
+python:S116Ç"]Rename this field "frame_SeleccionRuta_3" to match the regular expression ^[_a-z][_a-z0-9]*$.(èáîúÿÿÿÿ8âðñðØ/
+ƒpython:S116‡"_Rename this field "toolButton_aScanCompare" to match the regular expression ^[_a-z][_a-z0-9]*$.(Ì×Ú±ÿÿÿÿÿ8ãðñðØ/
+…python:S116É"aRename this field "comboBox_bScanPlaneSelect" to match the regular expression ^[_a-z][_a-z0-9]*$.(ñƒù¹ÿÿÿÿÿ8ãðñðØ/
+{python:S116‡"\Rename this field "label_backgroundFile" to match the regular expression ^[_a-z][_a-z0-9]*$.(¾“ä†8ãðñðØ/
+‹python:S116{"hRename this field "pushButton_backgroundSubtraction" to match the regular expression ^[_a-z][_a-z0-9]*$.(¬’•§ûÿÿÿÿ8ãðñðØ/
+€python:S116¼"\Rename this field "pushButton_cScanPlot" to match the regular expression ^[_a-z][_a-z0-9]*$.(ŽÇ˜Òýÿÿÿÿ8äðñðØ/
+spython:S116…"ORename this field "lastDir" to match the regular expression ^[_a-z][_a-z0-9]*$.(ßšû×ÿÿÿÿÿ8äðñðØ/
+spython:S116-"URename this field "gridLayout_18" to match the regular expression ^[_a-z][_a-z0-9]*$.(ã«Æ»8åðñðØ/
+qpython:S116î"RRename this field "gridLayout" to match the regular expression ^[_a-z][_a-z0-9]*$.(°ãç8æðñðØ/
+xpython:S116·"YRename this field "label_aScanYUnits" to match the regular expression ^[_a-z][_a-z0-9]*$.(¢Ð…‡8æðñðØ/
+upython:S116æ"VRename this field "groupBox_ascan" to match the regular expression ^[_a-z][_a-z0-9]*$.(Á¬ÃÇ8æðñðØ/
+wpython:S116y"TRename this field "gridLayout_4" to match the regular expression ^[_a-z][_a-z0-9]*$.(šËÉ±ûÿÿÿÿ8çðñðØ/
+Špython:S101 "gRename class "Ui_MainWindow" to match the regular expression ^_?([A-Z_][a-zA-Z0-9]*|[a-z_][a-z0-9_]*)$.( Ìñýùÿÿÿÿ8çðñðØ/
+ypython:S117!"VRename this parameter "MainWindow" to match the regular expression ^[_a-z][a-z0-9_]*$.(ÂéÇ´ÿÿÿÿÿ8çðñðØ/
+zpython:S117£"[Rename this local variable "sizePolicy" to match the regular expression ^[_a-z][a-z0-9_]*$.(ð¶ÀÌ8èðñðØ/
+~python:S117J"[Rename this local variable "spacerItem" to match the regular expression ^[_a-z][a-z0-9_]*$.(¾ŽýŽþÿÿÿÿ8èðñðØ/
+zpython:S117L"\Rename this local variable "spacerItem1" to match the regular expression ^[_a-z][a-z0-9_]*$.(‹‡öÔ8èðñðØ/
+€python:S117ƒ"\Rename this local variable "spacerItem2" to match the regular expression ^[_a-z][a-z0-9_]*$.(Ê•ù‘ûÿÿÿÿ8éðñðØ/
+{python:S117…"\Rename this local variable "spacerItem3" to match the regular expression ^[_a-z][a-z0-9_]*$.(ë©ô8éðñðØ/
+€python:S117£"\Rename this local variable "spacerItem4" to match the regular expression ^[_a-z][a-z0-9_]*$.( €Á‘ùÿÿÿÿ8éðñðØ/
+zpython:S117ã"\Rename this local variable "spacerItem5" to match the regular expression ^[_a-z][a-z0-9_]*$.(º°ªZ8êðñðØ/
+{python:S117å"\Rename this local variable "spacerItem6" to match the regular expression ^[_a-z][a-z0-9_]*$.(ˆä¡Ž8êðñðØ/
+{python:S117ç"\Rename this local variable "spacerItem7" to match the regular expression ^[_a-z][a-z0-9_]*$.(éŒ¡ˆ8êðñðØ/
+€python:S117º"\Rename this local variable "spacerItem8" to match the regular expression ^[_a-z][a-z0-9_]*$.(Ï³œùÿÿÿÿ8êðñðØ/
+€python:S117Ä"\Rename this local variable "spacerItem9" to match the regular expression ^[_a-z][a-z0-9_]*$.(ö¼Óþÿÿÿÿ8êðñðØ/
+npython:S100!"KRename method "setupUi" to match the regular expression ^[a-z_][a-z0-9_]*$.(ÂéÇ´ÿÿÿÿÿ8ëðñðØ/
+zpython:S117¡"VRename this parameter "MainWindow" to match the regular expression ^[_a-z][a-z0-9_]*$.(”«Àþÿÿÿÿ8ìðñðØ/
+upython:S100¡"QRename method "retranslateUi" to match the regular expression ^[a-z_][a-z0-9_]*$.(”«Àþÿÿÿÿ8ìðñðØ/
+xpython:S100Ï"TRename method "pedirRutaUsuario" to match the regular expression ^[a-z_][a-z0-9_]*$.(éË¤Èøÿÿÿÿ8ìðñðØ/
+>python:S125Ø"Remove this commented out code.(¨¨Ÿ®8ìðñðØ/
+rpython:S100à"NRename method "enableIfft" to match the regular expression ^[a-z_][a-z0-9_]*$.(®úŒƒþÿÿÿÿ8íðñðØ/
+npython:S100ä"ORename method "disableIfft" to match the regular expression ^[a-z_][a-z0-9_]*$.(šàè¿8íðñðØ/
+spython:S100ì"TRename method "enableProcessing" to match the regular expression ^[a-z_][a-z0-9_]*$.(Íù£ê8íðñðØ/
+ypython:S100ù"URename method "disableProcessing" to match the regular expression ^[a-z_][a-z0-9_]*$.(öì¤ùÿÿÿÿ8íðñðØ/
+qpython:S100Œ"RRename method "enablePlotting" to match the regular expression ^[a-z_][a-z0-9_]*$.(Ú“ÐÆ8îðñðØ/
+>python:S125’"Remove this commented out code.(¼î÷Ð8îðñðØ/
+rpython:S100œ"SRename method "disablePlotting" to match the regular expression ^[a-z_][a-z0-9_]*$.(ÓƒáÚ8îðñðØ/
+upython:S117­"VRename this parameter "MainWindow" to match the regular expression ^[_a-z][a-z0-9_]*$.(é–²é8ïðñðØ/
+spython:S100­"TRename method "comparationCheck" to match the regular expression ^[a-z_][a-z0-9_]*$.(é–²é8ïðñðØ/
+zpython:S100µ"VRename method "lanzarMensajeError" to match the regular expression ^[a-z_][a-z0-9_]*$.(ùÌ®Óüÿÿÿÿ8ïðñðØ/
+zpython:S100½"VRename method "lanzarMensajeExito" to match the regular expression ^[a-z_][a-z0-9_]*$.(ª§Ÿ¬ûÿÿÿÿ8ïðñðØ/
+upython:S117Ì"VRename this parameter "MainWindow" to match the regular expression ^[_a-z][a-z0-9_]*$.(ÿ²òù8ððñðØ/
+{python:S117Ï"\Rename this local variable "allCsvFiles" to match the regular expression ^[_a-z][a-z0-9_]*$.(Ò¾õ®8ððñðØ/
+wpython:S100Ì"XRename method "buscarRutaMediciones" to match the regular expression ^[a-z_][a-z0-9_]*$.(ÿ²òù8ððñðØ/
+zpython:S117ë"VRename this parameter "MainWindow" to match the regular expression ^[_a-z][a-z0-9_]*$.(£€«Çþÿÿÿÿ8ððñðØ/
+{python:S100ë"WRename method "buscarRutaArchivoH5" to match the regular expression ^[a-z_][a-z0-9_]*$.(£€«Çþÿÿÿÿ8ñðñðØ/
+Hpython:S108î")Either remove or fill this block of code.(ã‘Û¾8ñðñðØ/
+upython:S117†"VRename this parameter "MainWindow" to match the regular expression ^[_a-z][a-z0-9_]*$.(©µŠ¬8òðñðØ/
+ypython:S100†"ZRename method "buscarRutaBackgroundH5" to match the regular expression ^[a-z_][a-z0-9_]*$.(©µŠ¬8òðñðØ/
+Hpython:S108‰")Either remove or fill this block of code.(ã‘Û¾8óðñðØ/
+Cpython:S125‘"Remove this commented out code.(™À€˜ûÿÿÿÿ8óðñðØ/
+zpython:S117ž"VRename this parameter "MainWindow" to match the regular expression ^[_a-z][a-z0-9_]*$.( ñä®üÿÿÿÿ8óðñðØ/
+python:S100ž"[Rename method "buscarRutaArchivoH5Plot" to match the regular expression ^[a-z_][a-z0-9_]*$.( ñä®üÿÿÿÿ8ôðñðØ/
+Hpython:S108¡")Either remove or fill this block of code.(ã‘Û¾8ôðñðØ/
+upython:S117¶"VRename this parameter "MainWindow" to match the regular expression ^[_a-z][a-z0-9_]*$.(±Ä÷È8õðñðØ/
+€python:S100¶"aRename method "buscarRutaArchivoSimulaciones" to match the regular expression ^[a-z_][a-z0-9_]*$.(±Ä÷È8öðñðØ/
+Hpython:S108¹")Either remove or fill this block of code.(ã‘Û¾8öðñðØ/
+upython:S117Í"VRename this parameter "MainWindow" to match the regular expression ^[_a-z][a-z0-9_]*$.(µ•¥È8öðñðØ/
+}python:S117Ï"YRename this local variable "fileName" to match the regular expression ^[_a-z][a-z0-9_]*$.(Œ¶“»úÿÿÿÿ8÷ðñðØ/
+kpython:S100Í"LRename method "execIfft" to match the regular expression ^[a-z_][a-z0-9_]*$.(µ•¥È8÷ðñðØ/
+Cpython:S125×"Remove this commented out code.(±¡Ö§þÿÿÿÿ8øðñðØ/
+Cpython:S125ä"Remove this commented out code.(±¡Ö§þÿÿÿÿ8øðñðØ/
+zpython:S117ñ"VRename this parameter "MainWindow" to match the regular expression ^[_a-z][a-z0-9_]*$.(Ë§ë´ûÿÿÿÿ8øðñðØ/
+~python:S100ñ"ZRename method "execBackgroundRemotion" to match the regular expression ^[a-z_][a-z0-9_]*$.(Ë§ë´ûÿÿÿÿ8ùðñðØ/
+\python:S5754ù"<Specify an exception class to catch or reraise the exception(ˆÊÉ·8ùðñðØ/
+Cpython:S125û"Remove this commented out code.(ØìÕÔûÿÿÿÿ8ùðñðØ/
+upython:S117"VRename this parameter "MainWindow" to match the regular expression ^[_a-z][a-z0-9_]*$.(ÉÊÎâ8úðñðØ/
+|python:S100"]Rename method "execBackgroundSubtraction" to match the regular expression ^[a-z_][a-z0-9_]*$.(ÉÊÎâ8úðñðØ/
+\python:S5754Š"<Specify an exception class to catch or reraise the exception(ˆÊÉ·8ûðñðØ/
+zpython:S117"VRename this parameter "MainWindow" to match the regular expression ^[_a-z][a-z0-9_]*$.(®Îøµýÿÿÿÿ8ûðñðØ/
+upython:S100"QRename method "execMigration" to match the regular expression ^[a-z_][a-z0-9_]*$.(®Îøµýÿÿÿÿ8üðñðØ/
+zpython:S117¨"VRename this parameter "MainWindow" to match the regular expression ^[_a-z][a-z0-9_]*$.(ãéÀˆüÿÿÿÿ8ýðñðØ/
+upython:S100¨"QRename method "execAscanPlot" to match the regular expression ^[a-z_][a-z0-9_]*$.(ãéÀˆüÿÿÿÿ8ýðñðØ/
+zpython:S117Â"VRename this parameter "MainWindow" to match the regular expression ^[_a-z][a-z0-9_]*$.(²Á×ëûÿÿÿÿ8ýðñðØ/
+upython:S100Â"QRename method "execBscanPlot" to match the regular expression ^[a-z_][a-z0-9_]*$.(²Á×ëûÿÿÿÿ8ýðñðØ/
+\python:S5754È"<Specify an exception class to catch or reraise the exception(ˆÊÉ·8þðñðØ/
+upython:S117Ë"VRename this parameter "MainWindow" to match the regular expression ^[_a-z][a-z0-9_]*$.(ÑØ³8þðñðØ/
+ppython:S100Ë"QRename method "execCscanPlot" to match the regular expression ^[a-z_][a-z0-9_]*$.(ÑØ³8þðñðØ/

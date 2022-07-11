@@ -1,0 +1,13 @@
+
+bpython:S11921"JDefine a constant instead of duplicating this literal "Time [ns]" 5 times.(±Ù®Ÿ
+spython:S1192Z"VDefine a constant instead of duplicating this literal "GPR A-Scan at (x,y)=(" 3 times.(§ô¿üÿÿÿÿ
+}python:S1192Z"`Define a constant instead of duplicating this literal ")mm and HFSS-simulation results" 3 times.(§ô¿üÿÿÿÿ
+lpython:S11922"ODefine a constant instead of duplicating this literal "Amplitude [mV]" 5 times.(³êÙòùÿÿÿÿ
+ppython:S117"YRename this local variable "realData" to match the regular expression ^[_a-z][a-z0-9_]*$.(ü¢û
+lpython:S1542"ORename function "findAscan" to match the regular expression ^[a-z_][a-z0-9_]*$.(š¡úèøÿÿÿÿ
+;python:S125"Remove this commented out code.(‡Ø”òøÿÿÿÿ
+spython:S117%"WRename this parameter "compareFile" to match the regular expression ^[_a-z][a-z0-9_]*$.(¸ˆã±ÿÿÿÿÿ
+spython:S1176"WRename this local variable "imName" to match the regular expression ^[_a-z][a-z0-9_]*$.(µô›€øÿÿÿÿ
+ppython:S117-"YRename this local variable "realData" to match the regular expression ^[_a-z][a-z0-9_]*$.(†«ŒÕ
+upython:S117,"YRename this local variable "rootPath" to match the regular expression ^[_a-z][a-z0-9_]*$.(ñ“š™ıÿÿÿÿ
+;python:S125I"Remove this commented out code.(ª·Ú±ùÿÿÿÿ
