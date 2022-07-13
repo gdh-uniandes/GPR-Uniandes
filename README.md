@@ -1,6 +1,6 @@
 # GPR-Uniandes
 
-Proyecto Desminado Humanitario para la detección de explosivos con el uso de un GPR. Este repositorio es un resumen del proyecto Desminado Humanitario desarrollado en los repositorios [https://gitlab.com/desminadohumanitariouniandes](https://gitlab.com/desminadohumanitariouniandes). Para conocer rápidamente cómo poner en marcha el GPR, tomar muestras y graficarlas se recomienda revisar el [manual de primer uso del GPR](https://github.com/gaboandres1/GPR-Uniandes/blob/main/manuales/Manual_Primer_Uso.pdf). Se recomienda también revisar cada sección a continuación.
+Proyecto Desminado Humanitario para la detección de explosivos con el uso de un GPR. Este repositorio es un resumen del proyecto Desminado Humanitario desarrollado en los repositorios [https://gitlab.com/desminadohumanitariouniandes](https://gitlab.com/desminadohumanitariouniandes). Para conocer rápidamente cómo poner en marcha el GPR, tomar muestras y graficarlas se recomienda revisar el [manual de primer uso del GPR](https://github.com/gdh-uniandes/GPR-Uniandes/blob/main/manuales/Manual_Primer_Uso.pdf). Se recomienda también revisar cada sección a continuación.
 
 
 ## Instalación
@@ -17,7 +17,7 @@ Adicionalmente se requiere instalar una librería para el manejo del protocolo V
 
 ## Programas
 
-El manejo de los GPR se lleva a cabo con los programas en las carpetas [GPR-V2](https://github.com/gaboandres1/GPR-Uniandes/tree/main/GPR-V2) y [GPR-V2 - Portable](https://github.com/gaboandres1/GPR-Uniandes/tree/main/GPR-V2-Portable). Para ejecutarlos, ejecutar el siguiente comando situados en la carpeta correspondiente.
+El manejo de los GPR se lleva a cabo con los programas en las carpetas [GPR-V2](https://github.com/gdh-uniandes/GPR-Uniandes/tree/main/GPR-V2) y [GPR-V2 - Portable](https://github.com/gdh-uniandes/GPR-Uniandes/tree/main/GPR-V2-Portable). Para ejecutarlos, ejecutar el siguiente comando situados en la carpeta correspondiente.
 
 ```
 python main.py
@@ -41,7 +41,7 @@ El laboratorio de Desminado Humanitario de la Universidad de los Andes cuenta co
 [![Alt text](https://img.youtube.com/vi/uP6CfT2qYKs/0.jpg)](https://www.youtube.com/watch?v=uP6CfT2qYKs)
 
 ## Bases de datos
-En este enlace de [Google Drive](https://drive.google.com/drive/u/1/folders/1AtGNdvX9DbkHRUMq4o7JJagvuWf7gbRh) se encuentran para su descarga las mediciones tomadas en el laboratorio con el GPR. Se recomienda revisar el [manual de procesamiento GPR](https://github.com/gaboandres1/GPR-Uniandes/blob/main/manuales/01%20procesamiento%20de%20datos%20de%20GPR.pdf) en el capítulo 3 donde se describe la nomenclatura utilizada en los metadatos de los archivos .h5 para etiquetar las mediciones hechas.
+En este enlace de [Google Drive](https://drive.google.com/drive/u/1/folders/1AtGNdvX9DbkHRUMq4o7JJagvuWf7gbRh) se encuentran para su descarga las mediciones tomadas en el laboratorio con el GPR. Se recomienda revisar el [manual de procesamiento GPR](https://github.com/gdh-uniandes/GPR-Uniandes/blob/main/manuales/01%20procesamiento%20de%20datos%20de%20GPR.pdf) en el capítulo 3 donde se describe la nomenclatura utilizada en los metadatos de los archivos .h5 para etiquetar las mediciones hechas.
 
 
 

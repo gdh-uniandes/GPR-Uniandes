@@ -4,4 +4,4 @@ Lanzar la aplicación ejecutando el comando.
 python main.py
 ```
 
-Para conocer cómo utilizar el programa: [Manual de la aplicación](https://github.com/gaboandres1/GPR-Uniandes/blob/main/manuales/Manual_APP_Procesamiento.pdf).
+Para conocer cómo utilizar el programa: [Manual de la aplicación](https://github.com/gdh-uniandes/GPR-Uniandes/blob/main/manuales/Manual_APP_Procesamiento.pdf).
