@@ -1,0 +1,17 @@
+HFSS Mesh Statistics
+  Project:           powerlog_1tx_1rx_8julio2022
+  Design:            escen4_arena_esferaPEC_freq_1_3_5_7_GHz1
+  Solution setup:    Setup1
+  Design variation:  a='24mm' b='14mm' box_h='41mm' box_thickness='3mm' cavity_to_feed='1mm' cavitybase_to_lowerridge='5mm' copper_h='35um' dist_antena_borde='150mm' dist_horn_object='150mm' dist_rx_tx='320mm' distance_to_CS1='178mm' distancia_suelo='0mm' feed_hole_height='37.299999999999997mm' feed_hole_radius='2.2999999999999998mm' h_antena='250mm' h_cavity='11mm' h_cubeta='800mm' h_object='0mm' h_soil='0mm' metal_height='168mm' metal_reference='131mm' metal_reference_y='17mm' metal_thickness='2mm' pin_height='38.799999999999997mm' pin_radius='1mm' r_object='70mm' r_sphere='35mm' ridge_thickness='10.859999999999999mm' ridge_to_cavitybase='34mm' S='9mm' upperflare_x='91.799999999999997mm' upperflare_z='123.5mm' W='29mm' W_2='25mm' wedge_width='20mm' x_arena='476mm' x_boca_antena='182mm' x_sensitivity='53mm' z_sensitivity='150mm' z_soil='547.13999999999999mm'
+
+Total number of mesh elements: 827740
+            |     Num Tets  | Min edge length  | Max edge length  | RMS edge length  |     Min tet vol  |     Max tet vol  |    Mean tet vol  |  Std Devn (vol)  |
+       Box4 |       483367  |       0.0782459  |         47.3933  |         17.0758  |     5.71963e-07  |         6541.36  |         420.097  |          792.09  |
+  PowerLOG1 |        35191  |         0.19694  |         55.8003  |         8.50094  |     7.77797e-07  |         1689.86  |         13.9783  |         69.4197  |
+  feed_pin1 |         4181  |        0.367499  |         2.87261  |         1.41376  |     1.54406e-05  |        0.435822  |       0.0266494  |       0.0335705  |
+PowerLOG1_2 |        33875  |        0.273311  |         53.2054  |         8.84399  |     3.04748e-06  |         2789.65  |         14.5214  |           72.49  |
+feed_pin1_1 |         3873  |        0.367499  |          2.8474  |         1.53851  |      6.6921e-05  |        0.646647  |        0.028757  |       0.0386177  |
+       Box5 |       265967  |         4.24727  |         29.3558  |         16.6611  |         3.85315  |         1678.43  |         245.537  |         191.242  |
+    Sphere1 |         1286  |         9.27404  |         59.8335  |         41.0519  |         1.48583  |         4581.84  |         401.442  |         466.607  |
+
+ |

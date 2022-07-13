@@ -1,0 +1,168 @@
+HFSS Profile
+  Project:           powerlog_1tx_8julio2022
+  Design:            escen1_vacio_freq_1_3_5_7_GHz
+  Solution setup:    Setup1
+  Design variation:  a='24mm' b='14mm' box_h='41mm' box_thickness='3mm' cavity_to_feed='1mm' cavitybase_to_lowerridge='5mm' copper_h='35um' dist_horn_object='150mm' dist_rx_tx='140mm' distance_to_CS1='178mm' distancia_suelo='0mm' feed_hole_height='37.299999999999997mm' feed_hole_radius='2.2999999999999998mm' h_antena='250mm' h_cavity='11mm' h_cubeta='800mm' h_object='0mm' h_soil='0mm' metal_height='168mm' metal_reference='131mm' metal_reference_y='17mm' metal_thickness='2mm' pin_height='38.799999999999997mm' pin_radius='1mm' r_object='70mm' r_sphere='35mm' ridge_thickness='10.859999999999999mm' ridge_to_cavitybase='34mm' S='9mm' upperflare_x='91.799999999999997mm' upperflare_z='123.5mm' W='29mm' W_2='25mm' wedge_width='20mm' x_arena='476mm' x_sensitivity='53mm' z_sensitivity='150mm' z_soil='547.13999999999999mm'
+
+  Task                                                                  Real Time  CPU Time  Memory  Information
+  ----                                                                  ---------  --------  ------  -----------
+
+  Start                                                                                              Time:  05/27/2022 15:13:31; Host: LIEEEML02606; Processor: 8; OS: NT 10.0; HFSS Version 2021.2.0
+                                                                                                     Executing from C:\Program Files\AnsysEM\AnsysEM21.2\Win64\HFSSCOMENGINE.exe
+                                                                                                     HPC Enabled
+                                                                                                     Allow off core: True
+                                                                                                     Using automatic settings
+                                                                                                     Machines:
+                                                                                                     LIEEEML02606.ad.uniandes.edu.co [31.9 GB]: RAM Limit: 90.000000%, 3 cores
+                                                                                                     Solution Basis Order: 1
+                                                                                                     
+  Design Validation                                                                                  Elapsed time : 00:00:00 , HFSS ComEngine Memory : 158 M
+                                                                                                     Perform full validations with standard port validations
+                                                                                                     
+  Initial Meshing                                                                                    Time:  05/27/2022 15:13:32
+  Volume                                                                                             
+    Mesh Tau3                                                           00:02:50   00:03:03  1.28 G  164495 tetrahedra
+    Mesh Post (TAU)                                                     00:00:07   00:00:07  1.28 G  72363 tetrahedra
+  Mesh Refinement                                                                                    Lambda Based
+    Mesh (lambda based)                                                 00:00:19   00:00:19  199 M   141971 tetrahedra
+  Simulation Setup                                                      00:00:03   00:00:02  263 M   Disk = 0 Bytes
+  Port Adaptation                                                       00:00:01   00:00:00  277 M   Disk = 4.56 KB, 109747 tetrahedra 
+    Mesh (port based)                                                   00:00:04   00:00:04  165 M   142001 tetrahedra
+  Initial Meshing                                                                                    Elapsed time: 00:03:32
+                                                                                                     
+  Adaptive Meshing                                                                                   Time:  05/27/2022 15:17:04
+  Adaptive Pass 1                                                                                    Multi-Frequency Adaptive Meshing
+                                                                                                     Solving Distributed - up to 3 frequencies in parallel
+                                                                                                     
+                                                                                                     Solving with MPI (Intel MPI)
+                                                                                                     
+  Adaptive Meshing Frequency - 7GHz on LIEEEML02606.ad.uniandes.edu.co                               
+  Simulation Setup                                                      00:00:03   00:00:03  296 M   Disk = 49.9 KB, 109762 tetrahedra 
+  Matrix Assembly                                                       00:00:08   00:00:08  552 M   Disk = 0 Bytes, 109762 tetrahedra , 1 lumped port(s) 
+  Solver DCS1                                                           00:01:43   00:01:43  6.56 G  Disk = 767 Bytes, matrix size 655657 , matrix bandwidth  20.2 
+  Field Recovery                                                        00:00:03   00:00:03  6.56 G  Disk = 15.8 MB, 1 excitations 
+                                                                                                     
+  Adaptive Meshing Frequency - 3GHz on LIEEEML02606.ad.uniandes.edu.co                               
+  Simulation Setup                                                      00:00:03   00:00:03  296 M   Disk = 49.9 KB, 109762 tetrahedra 
+  Matrix Assembly                                                       00:00:08   00:00:08  554 M   Disk = 0 Bytes, 109762 tetrahedra , 1 lumped port(s) 
+  Solver DCS1                                                           00:01:43   00:01:43  6.56 G  Disk = 767 Bytes, matrix size 655657 , matrix bandwidth  20.2 
+  Field Recovery                                                        00:00:03   00:00:03  6.56 G  Disk = 15.8 MB, 1 excitations 
+                                                                                                     
+  Adaptive Meshing Frequency - 5GHz on LIEEEML02606.ad.uniandes.edu.co                               
+  Simulation Setup                                                      00:00:03   00:00:03  296 M   Disk = 49.9 KB, 109762 tetrahedra 
+  Matrix Assembly                                                       00:00:08   00:00:08  551 M   Disk = 0 Bytes, 109762 tetrahedra , 1 lumped port(s) 
+  Solver DCS1                                                           00:01:43   00:01:43  6.56 G  Disk = 767 Bytes, matrix size 655657 , matrix bandwidth  20.2 
+  Field Recovery                                                        00:00:03   00:00:03  6.56 G  Disk = 15.8 MB, 1 excitations 
+                                                                                                     
+  Adaptive Meshing Frequency - 1GHz on LIEEEML02606.ad.uniandes.edu.co                               
+  Simulation Setup                                                      00:00:03   00:00:03  288 M   Disk = 49.9 KB, 109762 tetrahedra 
+  Matrix Assembly                                                       00:00:04   00:00:10  952 M   Disk = 0 Bytes, 109762 tetrahedra , 1 lumped port(s) 
+  Solver DCS3                                                           00:00:42   00:01:46  5.94 G  Disk = 767 Bytes, matrix size 655657 , matrix bandwidth  20.2 
+  Field Recovery                                                        00:00:01   00:00:04  5.94 G  Disk = 15.8 MB, 1 excitations 
+  Data Transfer                                                         00:00:00   00:00:00  128 M   Adaptive Pass 1
+                                                                                                     
+  Adaptive Pass 2                                                                                    Multi-Frequency Adaptive Meshing
+    Mesh (volume, adaptive)                                             00:00:09   00:00:09  207 M   174933 tetrahedra
+                                                                                                     Solving Distributed - up to 2 frequencies in parallel
+                                                                                                     
+                                                                                                     Solving with MPI (Intel MPI)
+                                                                                                     
+  Adaptive Meshing Frequency - 7GHz on LIEEEML02606.ad.uniandes.edu.co                               
+  Simulation Setup                                                      00:00:04   00:00:04  364 M   Disk = 60.6 KB, 141406 tetrahedra 
+  Matrix Assembly                                                       00:00:07   00:00:12  966 M   Disk = 1 Bytes, 141406 tetrahedra , 1 lumped port(s) 
+  Solver DCS2                                                           00:01:41   00:03:10  9.02 G  Disk = 0 Bytes, matrix size 854025 , matrix bandwidth  20.6 
+  Field Recovery                                                        00:00:02   00:00:04  9.02 G  Disk = 8.55 MB, 1 excitations 
+                                                                                                     
+  Adaptive Meshing Frequency - 5GHz on LIEEEML02606.ad.uniandes.edu.co                               
+  Simulation Setup                                                      00:00:04   00:00:04  365 M   Disk = 60.6 KB, 141406 tetrahedra 
+  Matrix Assembly                                                       00:00:10   00:00:10  697 M   Disk = 1 Bytes, 141406 tetrahedra , 1 lumped port(s) 
+  Solver DCS1                                                           00:02:47   00:02:47  9.72 G  Disk = 0 Bytes, matrix size 854025 , matrix bandwidth  20.6 
+  Field Recovery                                                        00:00:03   00:00:03  9.72 G  Disk = 8.55 MB, 1 excitations 
+                                                                                                     
+                                                                                                     Solving with MPI (Intel MPI)
+                                                                                                     
+  Adaptive Meshing Frequency - 3GHz on LIEEEML02606.ad.uniandes.edu.co                               
+  Simulation Setup                                                      00:00:04   00:00:04  364 M   Disk = 60.6 KB, 141406 tetrahedra 
+  Matrix Assembly                                                       00:00:07   00:00:12  964 M   Disk = 1 Bytes, 141406 tetrahedra , 1 lumped port(s) 
+  Solver DCS2                                                           00:01:41   00:03:10  9.02 G  Disk = 0 Bytes, matrix size 854025 , matrix bandwidth  20.6 
+  Field Recovery                                                        00:00:02   00:00:04  9.02 G  Disk = 8.55 MB, 1 excitations 
+                                                                                                     
+  Adaptive Meshing Frequency - 1GHz on LIEEEML02606.ad.uniandes.edu.co                               
+  Simulation Setup                                                      00:00:04   00:00:04  364 M   Disk = 60.6 KB, 141406 tetrahedra 
+  Matrix Assembly                                                       00:00:10   00:00:10  704 M   Disk = 1 Bytes, 141406 tetrahedra , 1 lumped port(s) 
+  Solver DCS1                                                           00:02:48   00:02:48  9.73 G  Disk = 0 Bytes, matrix size 854025 , matrix bandwidth  20.6 
+  Field Recovery                                                        00:00:03   00:00:03  9.73 G  Disk = 8.55 MB, 1 excitations 
+  Data Transfer                                                         00:00:00   00:00:00  124 M   Adaptive Pass 2
+                                                                                                     Max Mag. Delta S = 0.27052 at adaptive pass 2
+                                                                                                     
+  Adaptive Pass 3                                                                                    Multi-Frequency Adaptive Meshing
+    Mesh (volume, adaptive)                                             00:00:13   00:00:13  241 M   217357 tetrahedra
+                                                                                                     Solving frequencies sequentially
+                                                                                                     
+  Adaptive Meshing Frequency - 7GHz on LIEEEML02606.ad.uniandes.edu.co                               
+  Simulation Setup                                                      00:00:04   00:00:04  417 M   Disk = 74.5 KB, 182499 tetrahedra 
+  Matrix Assembly                                                       00:00:07   00:00:17  1.54 G  Disk = 450 Bytes, 182499 tetrahedra , 1 lumped port(s) 
+  Solver DCS3                                                           00:02:07   00:05:43  13.4 G  Disk = 0 Bytes, matrix size 1112693 , matrix bandwidth  20.9 
+  Field Recovery                                                        00:00:03   00:00:06  13.4 G  Disk = 10.7 MB, 1 excitations 
+                                                                                                     
+  Adaptive Meshing Frequency - 5GHz on LIEEEML02606.ad.uniandes.edu.co                               
+  Simulation Setup                                                      00:00:04   00:00:04  422 M   Disk = 74.5 KB, 182499 tetrahedra 
+  Matrix Assembly                                                       00:00:08   00:00:17  1.56 G  Disk = 0 Bytes, 182499 tetrahedra , 1 lumped port(s) 
+  Solver DCS3                                                           00:02:02   00:05:27  13.5 G  Disk = 0 Bytes, matrix size 1112693 , matrix bandwidth  20.9 
+  Field Recovery                                                        00:00:03   00:00:06  13.5 G  Disk = 7.38 MB, 1 excitations 
+                                                                                                     
+  Adaptive Meshing Frequency - 3GHz on LIEEEML02606.ad.uniandes.edu.co                               
+  Simulation Setup                                                      00:00:04   00:00:04  423 M   Disk = 74.5 KB, 182499 tetrahedra 
+  Matrix Assembly                                                       00:00:07   00:00:17  1.56 G  Disk = 0 Bytes, 182499 tetrahedra , 1 lumped port(s) 
+  Solver DCS3                                                           00:02:01   00:05:27  13.5 G  Disk = 0 Bytes, matrix size 1112693 , matrix bandwidth  20.9 
+  Field Recovery                                                        00:00:03   00:00:06  13.5 G  Disk = 7.38 MB, 1 excitations 
+                                                                                                     
+  Adaptive Meshing Frequency - 1GHz on LIEEEML02606.ad.uniandes.edu.co                               
+  Simulation Setup                                                      00:00:04   00:00:04  423 M   Disk = 74.5 KB, 182499 tetrahedra 
+  Matrix Assembly                                                       00:00:07   00:00:17  1.56 G  Disk = 0 Bytes, 182499 tetrahedra , 1 lumped port(s) 
+  Solver DCS3                                                           00:02:01   00:05:26  13.5 G  Disk = 0 Bytes, matrix size 1112693 , matrix bandwidth  20.9 
+  Field Recovery                                                        00:00:03   00:00:05  13.5 G  Disk = 7.38 MB, 1 excitations 
+  Data Transfer                                                         00:00:00   00:00:00  125 M   Adaptive Pass 3
+                                                                                                     Max Mag. Delta S = 0.16681 at adaptive pass 3
+                                                                                                     
+  Adaptive Pass 4                                                                                    Multi-Frequency Adaptive Meshing
+    Mesh (volume, adaptive)                                             00:00:14   00:00:14  277 M   266710 tetrahedra
+                                                                                                     Solving frequencies sequentially
+                                                                                                     
+  Adaptive Meshing Frequency - 7GHz on LIEEEML02606.ad.uniandes.edu.co                               
+  Simulation Setup                                                      00:00:05   00:00:05  514 M   Disk = 88.5 KB, 229967 tetrahedra 
+  Matrix Assembly                                                       00:00:09   00:00:21  1.94 G  Disk = 150 Bytes, 229967 tetrahedra , 1 lumped port(s) 
+  Solver DCS3                                                           00:03:09   00:08:38  18.5 G  Disk = 0 Bytes, matrix size 1411125 , matrix bandwidth  21.1 
+  Field Recovery                                                        00:00:04   00:00:07  18.5 G  Disk = 12.8 MB, 1 excitations 
+                                                                                                     
+  Adaptive Meshing Frequency - 5GHz on LIEEEML02606.ad.uniandes.edu.co                               
+  Simulation Setup                                                      00:00:05   00:00:05  519 M   Disk = 88.5 KB, 229967 tetrahedra 
+  Matrix Assembly                                                       00:00:09   00:00:21  1.94 G  Disk = 0 Bytes, 229967 tetrahedra , 1 lumped port(s) 
+  Solver DCS3                                                           00:03:10   00:08:39  18.5 G  Disk = 0 Bytes, matrix size 1411125 , matrix bandwidth  21.1 
+  Field Recovery                                                        00:00:04   00:00:07  18.5 G  Disk = 8.54 MB, 1 excitations 
+                                                                                                     
+  Adaptive Meshing Frequency - 3GHz on LIEEEML02606.ad.uniandes.edu.co                               
+  Simulation Setup                                                      00:00:05   00:00:05  519 M   Disk = 88.5 KB, 229967 tetrahedra 
+  Matrix Assembly                                                       00:00:09   00:00:21  1.94 G  Disk = 0 Bytes, 229967 tetrahedra , 1 lumped port(s) 
+  Solver DCS3                                                           00:03:10   00:08:40  18.5 G  Disk = 0 Bytes, matrix size 1411125 , matrix bandwidth  21.1 
+  Field Recovery                                                        00:00:04   00:00:08  18.5 G  Disk = 8.54 MB, 1 excitations 
+                                                                                                     
+  Adaptive Meshing Frequency - 1GHz on LIEEEML02606.ad.uniandes.edu.co                               
+  Simulation Setup                                                      00:00:05   00:00:05  519 M   Disk = 88.5 KB, 229967 tetrahedra 
+  Matrix Assembly                                                       00:00:10   00:00:21  1.94 G  Disk = 0 Bytes, 229967 tetrahedra , 1 lumped port(s) 
+  Solver DCS3                                                           00:03:09   00:08:37  18.5 G  Disk = 0 Bytes, matrix size 1411125 , matrix bandwidth  21.1 
+  Field Recovery                                                        00:00:04   00:00:07  18.5 G  Disk = 8.54 MB, 1 excitations 
+  Data Transfer                                                         00:00:00   00:00:00  101 M   Adaptive Pass 4
+                                                                                                     Max Mag. Delta S = 0.01705 at adaptive pass 4
+                                                                                                     Adaptive Passes converged
+                                                                                                     
+  Adaptive Meshing                                                                                   Elapsed time: 00:34:28
+                                                                                                     
+  Simulation Summary:                                                                                
+  Design Validation                                                                                  Elapsed time: 00:00:00, total memory: 158 MB
+  Initial Meshing                                                                                    Elapsed time: 00:03:32, total memory: 1.28 GB
+  Adaptive Meshing                                                                                   Elapsed time: 00:34:28, average memory/process: 18.5 GB, max memory/process: 18.5 GB, total number of processes: 1, total number of cores: 3
+                                                                                                     max solved tets: 229967, max matrix size: 1411125, max bandwidth:  21.1
+                                                                                                     Time:  05/27/2022 15:51:32, Status: Normal Completion
+  Total                                                                 00:27:49   01:06:51          Elapsed time : 00:38:01 , ComEngine Memory : 255 M
+                                                                                                     
