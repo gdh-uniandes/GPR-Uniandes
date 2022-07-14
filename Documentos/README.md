@@ -1,4 +1,4 @@
-# manuales
+# Documentos
 Documentos del proyecto.
 
 [01 procesamiento de datos de GPR.pdf](https://github.com/gdh-uniandes/GPR-Uniandes/blob/main/manuales/01%20procesamiento%20de%20datos%20de%20GPR.pdf) - Documentación del procesamiento de datos sugerido de las mediciones del GPR para obtener imágenes 3D en tiempo de los parámetros S12.
