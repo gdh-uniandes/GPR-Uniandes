@@ -41,7 +41,7 @@ El laboratorio de Desminado Humanitario de la Universidad de los Andes cuenta co
 [![Alt text](https://img.youtube.com/vi/uP6CfT2qYKs/0.jpg)](https://www.youtube.com/watch?v=uP6CfT2qYKs)
 
 ## Bases de datos
-En este enlace de [Google Drive](https://drive.google.com/drive/u/1/folders/1AtGNdvX9DbkHRUMq4o7JJagvuWf7gbRh) se encuentran para su descarga las mediciones tomadas en el laboratorio con el GPR. Se recomienda revisar el [manual de procesamiento GPR](https://github.com/gdh-uniandes/GPR-Uniandes/blob/main/manuales/01%20procesamiento%20de%20datos%20de%20GPR.pdf) en el capítulo 3 donde se describe la nomenclatura utilizada en los metadatos de los archivos .h5 para etiquetar las mediciones hechas.
+En este enlace de [Google Drive](https://drive.google.com/drive/u/1/folders/1AtGNdvX9DbkHRUMq4o7JJagvuWf7gbRh) se encuentran para su descarga las mediciones tomadas en el laboratorio con el GPR. Se recomienda revisar el [manual de procesamiento GPR](https://github.com/gdh-uniandes/GPR-Uniandes/blob/main/Documentos/01%20procesamiento%20de%20datos%20de%20GPR.pdf) en el capítulo 3 donde se describe la nomenclatura utilizada en los metadatos de los archivos .h5 para etiquetar las mediciones hechas.
 
 
 
