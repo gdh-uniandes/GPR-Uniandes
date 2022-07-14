@@ -13,5 +13,7 @@ Los scripts de Python presentes en esta carpeta ejecutan el procesamiento de dat
 
 * [04_plotting](https://github.com/gdh-uniandes/GPR-Uniandes/tree/main/scripts%20procesamiento/04_plotting): En esta carpeta se encuentran diferentes scripts para obtener plots de las mediciones migradas, C-Scan y B-Scan.
 
+## Códigos fuente para la detección de objetos
 
+Los notebooks presentes en [05_detection](https://github.com/gdh-uniandes/GPR-Uniandes/tree/main/scripts%20procesamiento/05_detection) corresponden al código fuente empleado en la detección de objetos que se implementó en los documentos [Mediciones Machine Learning](https://github.com/gdh-uniandes/GPR-Uniandes/tree/main/Documentos/Mediciones_Machine_Learning.pdf), [Sistema de detección de minas GPR y Machine Learning](https://github.com/gdh-uniandes/GPR-Uniandes/tree/main/Documentos/Sistema_de_detecci_n_de_minas_GPR_y_Machine_Learning.pdf) y [UDT Migration](https://github.com/gdh-uniandes/GPR-Uniandes/tree/main/Documentos/UDT_Migration.pdf).
 
