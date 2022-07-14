@@ -23,7 +23,7 @@ El manejo de los GPR se lleva a cabo con los programas en las carpetas [GPR-V2](
 python main.py
 ```
 
-Adicionalmente, se hizo el programa en [APP-Procesamiento]() con el fin de procesar y graficar las mediciones hechas por el GPR. La aplicación se ejecuta de la misma forma que los programas anteriores.
+Adicionalmente, se hizo el programa en [APP-Procesamiento](https://github.com/gdh-uniandes/GPR-Uniandes/tree/main/APP-Procesamiento) con el fin de procesar y graficar las mediciones hechas por el GPR. La aplicación se ejecuta de la misma forma que los programas anteriores.
 
 ## GPRs del laboratorio
 El laboratorio de Desminado Humanitario de la Universidad de los Andes cuenta con un GPR fijo ubicado en una caja de tierras y un GPR portable diseñado para la toma de muestras en exteriores.
