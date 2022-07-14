@@ -1,6 +1,6 @@
 # GPR-Uniandes
 
-Proyecto Desminado Humanitario para la detección de explosivos con el uso de un GPR. Este repositorio es un resumen del proyecto Desminado Humanitario desarrollado en los repositorios [https://gitlab.com/desminadohumanitariouniandes](https://gitlab.com/desminadohumanitariouniandes). Para conocer rápidamente cómo poner en marcha el GPR, tomar muestras y graficarlas se recomienda revisar el [manual de primer uso del GPR](https://github.com/gdh-uniandes/GPR-Uniandes/blob/main/manuales/Manual_Primer_Uso.pdf). Se recomienda también revisar cada sección a continuación.
+Proyecto Desminado Humanitario para la detección de explosivos con el uso de un GPR. Este repositorio es un resumen del proyecto Desminado Humanitario desarrollado en los repositorios [https://gitlab.com/desminadohumanitariouniandes](https://gitlab.com/desminadohumanitariouniandes). Para conocer rápidamente cómo poner en marcha el GPR, tomar muestras y graficarlas se recomienda revisar el [manual de primer uso del GPR](https://github.com/gdh-uniandes/GPR-Uniandes/blob/main/Documentos/Manual_Primer_Uso.pdf). Se recomienda también revisar cada sección a continuación.
 
 
 ## Instalación
