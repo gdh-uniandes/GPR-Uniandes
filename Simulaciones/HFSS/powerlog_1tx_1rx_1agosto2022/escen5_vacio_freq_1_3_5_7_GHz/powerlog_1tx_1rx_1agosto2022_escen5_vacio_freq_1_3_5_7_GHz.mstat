@@ -1,0 +1,15 @@
+HFSS Mesh Statistics
+  Project:           powerlog_1tx_1rx_8julio2022
+  Design:            escen1_vacio_freq_1_3_5_7_GHz
+  Solution setup:    Setup1
+  Design variation:  a='24mm' b='14mm' box_h='41mm' box_thickness='3mm' cavity_to_feed='1mm' cavitybase_to_lowerridge='5mm' copper_h='35um' dist_antena_borde='150mm' dist_horn_object='150mm' dist_rx_tx='320mm' distance_to_CS1='178mm' distancia_suelo='0mm' feed_hole_height='37.299999999999997mm' feed_hole_radius='2.2999999999999998mm' h_antena='250mm' h_cavity='11mm' h_cubeta='800mm' h_object='0mm' h_soil='0mm' metal_height='168mm' metal_reference='131mm' metal_reference_y='17mm' metal_thickness='2mm' pin_height='38.799999999999997mm' pin_radius='1mm' r_object='70mm' r_sphere='35mm' ridge_thickness='10.859999999999999mm' ridge_to_cavitybase='34mm' S='9mm' upperflare_x='91.799999999999997mm' upperflare_z='123.5mm' W='29mm' W_2='25mm' wedge_width='20mm' x_arena='476mm' x_boca_antena='182mm' x_sensitivity='53mm' z_sensitivity='150mm' z_soil='547.13999999999999mm'
+
+Total number of mesh elements: 554980
+            |     Num Tets  | Min edge length  | Max edge length  | RMS edge length  |     Min tet vol  |     Max tet vol  |    Mean tet vol  |  Std Devn (vol)  |
+       Box4 |       482146  |       0.0782459  |         45.9069  |         19.5834  |     5.71963e-07  |         6517.32  |         557.677  |         858.388  |
+  PowerLOG1 |        33065  |         0.19694  |         55.5006  |         8.64755  |     7.77797e-07  |         2850.09  |         14.8771  |         81.5764  |
+  feed_pin1 |         3743  |        0.367499  |         2.87261  |         1.49347  |     3.18086e-05  |        0.485542  |       0.0297676  |       0.0369743  |
+PowerLOG1_2 |        32560  |        0.273311  |         57.8901  |         8.81182  |     2.76046e-06  |         3077.36  |         15.1078  |         82.0924  |
+feed_pin1_1 |         3466  |        0.367499  |         3.44773  |         1.60674  |      6.6921e-05  |        0.721849  |       0.0321337  |       0.0458378  |
+
+ |

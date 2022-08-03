@@ -1,0 +1,14 @@
+HFSS Mesh Statistics
+  Project:           powerlog_1tx_1agosto2022
+  Design:            escen2_arena_tiempo_1-7_GHz
+  Solution setup:    Setup1
+  Design variation:  a='24mm' b='14mm' box_h='41mm' box_thickness='3mm' cavity_to_feed='1mm' cavitybase_to_lowerridge='5mm' copper_h='35um' dist_horn_object='150mm' dist_rx_tx='140mm' distance_to_CS1='178mm' distancia_suelo='100mm' feed_hole_height='37.299999999999997mm' feed_hole_radius='2.2999999999999998mm' h_antena='250mm' h_cavity='11mm' h_cubeta='800mm' h_object='0mm' h_soil='0mm' metal_height='168mm' metal_reference='131mm' metal_reference_y='17mm' metal_thickness='2mm' pin_height='38.799999999999997mm' pin_radius='1mm' r_object='70mm' r_sphere='35mm' ridge_thickness='10.859999999999999mm' ridge_to_cavitybase='34mm' S='9mm' upperflare_x='91.799999999999997mm' upperflare_z='123.5mm' W='29mm' W_2='25mm' wedge_width='20mm' x_arena='476mm' x_sensitivity='53mm' z_sensitivity='150mm' z_soil='547.13999999999999mm'
+
+Total number of mesh elements: 144658
+          |     Num Tets  | Min edge length  | Max edge length  | RMS edge length  |     Min tet vol  |     Max tet vol  |    Mean tet vol  |  Std Devn (vol)  |
+     Box4 |        89605  |        0.290092  |         88.4149  |         23.8433  |     1.25953e-05  |         38069.3  |         1346.04  |         3574.52  |
+PowerLOG1 |        32132  |        0.369696  |         72.5053  |          8.7916  |     1.69547e-06  |         4846.23  |         15.3093  |         98.0613  |
+feed_pin1 |         2229  |        0.517638  |         3.90294  |         1.77818  |     2.73684e-06  |        0.682971  |       0.0498026  |       0.0687749  |
+     Box8 |        20692  |         16.1641  |         57.4207  |         33.8793  |         144.212  |         9511.24  |         1887.97  |         1172.51  |
+
+ |

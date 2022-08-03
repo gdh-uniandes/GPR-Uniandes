@@ -1,0 +1,16 @@
+HFSS Mesh Statistics
+  Project:           powerlog_1tx_1rx_1agosto2022
+  Design:            escen7_esferaPEC_freq_1_3_5_7_GHz
+  Solution setup:    Setup1
+  Design variation:  a='24mm' b='14mm' box_h='41mm' box_thickness='3mm' cavity_to_feed='1mm' cavitybase_to_lowerridge='5mm' copper_h='35um' dist_antena_borde='150mm' dist_horn_object='150mm' dist_rx_tx='320mm' distance_to_CS1='178mm' distancia_suelo='0mm' feed_hole_height='37.299999999999997mm' feed_hole_radius='2.2999999999999998mm' h_antena='300mm' h_cavity='11mm' h_cubeta='800mm' h_object='0mm' h_soil='0mm' metal_height='168mm' metal_reference='131mm' metal_reference_y='17mm' metal_thickness='2mm' pin_height='38.799999999999997mm' pin_radius='1mm' r_object='70mm' r_sphere='35mm' ridge_thickness='10.859999999999999mm' ridge_to_cavitybase='34mm' S='9mm' upperflare_x='91.799999999999997mm' upperflare_z='123.5mm' W='29mm' W_2='25mm' wedge_width='20mm' x_arena='476mm' x_boca_antena='182mm' x_sensitivity='53mm' z_sensitivity='150mm' z_soil='547.13999999999999mm'
+
+Total number of mesh elements: 627579
+            |     Num Tets  | Min edge length  | Max edge length  | RMS edge length  |     Min tet vol  |     Max tet vol  |    Mean tet vol  |  Std Devn (vol)  |
+       Box4 |       551169  |        0.309272  |         47.3616  |         19.3391  |     1.13166e-05  |         6827.46  |         526.709  |         815.208  |
+  PowerLOG1 |        33823  |        0.336745  |          52.864  |         8.65478  |     2.52902e-06  |         2403.84  |         14.5439  |         75.6606  |
+  feed_pin1 |         2948  |        0.517638  |          3.0873  |         1.63127  |     0.000460134  |        0.753513  |       0.0376564  |       0.0494608  |
+PowerLOG1_2 |        35160  |        0.336266  |         55.6847  |         8.58966  |     4.42827e-07  |          3401.5  |         13.9909  |         80.3777  |
+feed_pin1_1 |         3172  |        0.517638  |          3.5085  |         1.61858  |     0.000321277  |        0.498298  |       0.0349974  |       0.0457617  |
+    Sphere1 |         1307  |         9.25853  |         94.2555  |         33.9979  |         3.19242  |         16919.4  |         394.984  |         1181.21  |
+
+ |

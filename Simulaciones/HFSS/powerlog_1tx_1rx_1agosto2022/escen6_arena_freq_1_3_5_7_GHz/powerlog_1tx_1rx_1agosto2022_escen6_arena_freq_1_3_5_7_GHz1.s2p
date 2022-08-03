@@ -1,0 +1,67 @@
+! Touchstone file exported from HFSS 2021.2.0
+!        File:           C:/Users/lf.quiroga/Downloads/powerlog_1tx_1rx_8julio2022.aedt
+!        Generated:      7:30:36 p.%xA0m.  jul. 11, 2022
+!        Design:         escen2_arena_freq_1_3_5_7_GHz1
+!        Project:        powerlog_1tx_1rx_8julio2022
+!        Setup:          Setup1
+!        Solution:       LastAdaptive
+!
+! Variables:
+!        S = 9mm
+!        W = 29mm
+!        W_2 = 25mm
+!        a = 24mm
+!        b = 14mm
+!        box_h = 41mm
+!        box_thickness = 3mm
+!        cavity_to_feed = 1mm
+!        cavitybase_to_lowerridge = 5mm
+!        copper_h = 35um
+!        dist_antena_borde = 150mm
+!        dist_horn_object = 150mm
+!        dist_rx_tx = 320mm
+!        distance_to_CS1 = 178mm
+!        distancia_suelo = 0mm
+!        feed_hole_height = 37.3mm
+!        feed_hole_radius = 2.3mm
+!        h_antena = 250mm
+!        h_cavity = 11mm
+!        h_cubeta = 800mm
+!        h_object = 0mm
+!        h_soil = 0mm
+!        line_step = 100mm
+!        metal_height = 168mm
+!        metal_reference = 131mm
+!        metal_reference_y = 17mm
+!        metal_thickness = 2mm
+!        pin_height = 38.8mm
+!        pin_radius = 1mm
+!        r_object = 70mm
+!        r_sphere = 35mm
+!        ridge_thickness = 10.86mm
+!        ridge_to_cavitybase = 34mm
+!        upperflare_x = 91.8mm
+!        upperflare_z = 123.5mm
+!        wedge_width = 20mm
+!        x_arena = 476mm
+!        x_boca_antena = 182mm
+!        x_sensitivity = 53mm
+!        z_sensitivity = 150mm
+!        z_soil = 547.14mm
+!
+# GHz S MA R 50.000000
+! Terminal data exported
+! Port[1] = feed_pin1_T1
+! Port[2] = feed_pin1_T2
+1                              0.595580040861431 12.5146664372608 0.0362790698460802 -156.634855882062 0.036279069846079 -156.634855882061 0.597078787076324 12.4085687624691 
+! Gamma         -0               0                0                -0               
+! Port Impedance         50               0                50               0                
+3                              0.115250099656752 -82.4713803105315 0.0117780167823288 9.20448396812791 0.0117780167823287 9.20448396812984 0.113567341541997 -80.9998051299154 
+! Gamma         0                -0               -0               0                
+! Port Impedance         50               0                50               0                
+5                              0.161740464873837 144.54158540815  0.00423864829836271 31.4231487680014 0.00423864829836283 31.423148768004  0.16293478245984 143.036457652537 
+! Gamma         -0               0                0                -0               
+! Port Impedance         50               0                50               0                
+7                              0.288141425603774 -14.4569915511421 0.00649376879612173 -174.040231205379 0.00649376879612049 -174.040231205375 0.288744666774532 -14.4715062945622 
+! Gamma         -0               0                -0               0                
+! Port Impedance         50               0                50               0                
