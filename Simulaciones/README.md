@@ -5,9 +5,9 @@
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Además, en cada directorio de simulación, se encuentran archivos y carpetas nombrados con la siguiente estructura:
 
-    *.in - Archivo de configuración de simulación gprMax.
-    *.out - Archivo resultados de simulación gprMax.
-    *.vti - Archivo de geometría de escenario gprMax.
+    *.in - Archivo(s) de configuración de simulación gprMax.
+    *.out - Archivo(s) resultados de simulación gprMax.
+    *.vti - Archivo(s) de geometría de escenario gprMax.
     *.h5 - Archivo con geometría de un objeto 3D en formato hdf5.
     *_mats.txt - Archivo(s) con la distribución de materiales de un objeto 3D en formato hdf5.
     wave.txt - Archivo de texto con los valores de la forma de onda usada para la excitación de un puerto.
