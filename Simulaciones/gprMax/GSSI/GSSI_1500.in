@@ -1,0 +1,48 @@
+#title: GSSI 1.5GHz 'like' antenna in free-space
+#domain: 0.250 0.188 0.220
+#dx_dy_dz: 0.001 0.001 0.001
+#time_window: 6e-9
+
+#waveform: gaussian 1 1.71e9 myGaussian
+
+#python:
+from gprMax.input_cmd_funcs import material
+rxres = 925
+dx = 0.001
+dy = 0.001
+dz = 0.001
+material(3, (1 / rxres) * (dy / (dx * dz)), 1, 0, 'rxres')
+#end_python:
+
+
+#geometry_objects_read: 0.04 0.04 0.100 GSSI.h5 GSSI_mats.txt
+
+## Tx Bowtie
+#triangle: 0.142 0.109 0.104 0.162 0.109 0.104 0.152 0.095 0.104 0 pec
+#triangle: 0.142 0.080 0.104 0.162 0.080 0.104 0.152 0.094 0.104 0 pec
+
+#plate: 0.141 0.109 0.104 0.163 0.124 0.104 pec
+#plate: 0.141 0.065 0.104 0.163 0.080 0.104 pec
+
+#edge: 0.152 0.095 0.104 0.152 0.096 0.104 pec
+#edge: 0.152 0.093 0.104 0.152 0.094 0.104 pec
+
+##edge: 0.152 0.094 0.104 0.152 0.095 0.104 rxres
+#voltage_source: y 0.152 0.094 0.104 230 myGaussian
+#rx: 0.152 0.094 0.104
+
+## Rx Bowtie
+#triangle: 0.087 0.109 0.104 0.107 0.109 0.104 0.097 0.095 0.104 0 pec
+#triangle: 0.087 0.080 0.104 0.107 0.080 0.104 0.097 0.094 0.104 0 pec
+
+#plate: 0.086 0.109 0.104 0.108 0.124 0.104 pec
+#plate: 0.086 0.065 0.104 0.108 0.080 0.104 pec
+
+#edge: 0.097 0.095 0.104 0.097 0.096 0.104 pec
+#edge: 0.097 0.093 0.104 0.097 0.094 0.104 pec
+
+#edge: 0.097 0.094 0.104 0.097 0.095 0.104 rxres
+#rx: 0.097 0.094 0.104
+
+
+#geometry_view: 0 0 0 0.250 0.188 0.220 0.001 0.001 0.001 GSSI_geometry n
