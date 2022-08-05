@@ -2,6 +2,8 @@
 
 * [gprMax:](https://github.com/gdh-uniandes/GPR-Uniandes/blob/main/Simulaciones/gprMax/) Contiene los archivos usados para obtener las simulaciones realizadas en gprMax. Puede encontrarse también los archivos CAD usados en la generación de los objetos hdf5 que se hizo utilizando el programa [stl-to-hdf5-gprMax](https://github.com/gaboandres1/stl-to-hdf5-gprMax). En cada subcarpeta de este directorio se encuentra un resultado de simulación que corresponde a:
     * [GSSI:](https://github.com/gdh-uniandes/GPR-Uniandes/blob/main/Simulaciones/gprMax/GSSI/) Simulación de la antena GSSI hecha a partir de la geometría del objeto en hdf5.
+    * [MALA:](https://github.com/gdh-uniandes/GPR-Uniandes/blob/main/Simulaciones/gprMax/MALA/) Simulación de la antena MALA hecha a partir de la geometría del objeto en hdf5.
+    * [PowerLOG:](https://github.com/gdh-uniandes/GPR-Uniandes/blob/main/Simulaciones/gprMax/PowerLOG/) Simulaciones de la antena PowerLOG hecha a partir de la geometría del objeto en hdf5.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Además, en cada directorio de simulación, se encuentran archivos y carpetas nombrados con la siguiente estructura:
 
