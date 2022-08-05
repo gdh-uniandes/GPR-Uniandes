@@ -1,0 +1,99 @@
+#title: MALA 1.2GHz 'like' antenna in free-space
+#domain: 0.264 0.189 0.220
+#dx_dy_dz: 0.001 0.001 0.001
+#time_window: 6e-9
+
+##excitation_file: ../user_libs/tests/wave.txt
+
+#waveform: gaussian 1 0.978e9 myGaussian
+
+#geometry_objects_read: 0.04 0.04 0.100 MALA.h5 MALA_mats.txt
+
+#python:
+from gprMax.input_cmd_funcs import *
+
+# ----MATERIALS----
+dx = 0.0005
+dy = 0.0005
+dz = 0.0005
+
+txres = 470  # Ohms
+txrescellupper = txres / 3  # Resistor over 3 cells
+txsigupper = ((1 / txrescellupper) * (dy / (dx * dz))) / 2  # Divide by number of parallel edges per resistor
+txrescelllower = txres / 4  # Resistor over 4 cells
+txsiglower = ((1 / txrescelllower) * (dy / (dx * dz))) / 2  # Divide by number of parallel edges per resistor
+rxres = 150  # Ohms
+rxrescellupper = rxres / 3  # Resistor over 3 cells
+rxsigupper = ((1 / rxrescellupper) * (dy / (dx * dz))) / 2  # Divide by number of parallel edges per resistor
+rxrescelllower = rxres / 4  # Resistor over 4 cells
+rxsiglower = ((1 / rxrescelllower) * (dy / (dx * dz))) / 2  # Divide by number of parallel edges per resistor
+
+material(3, txsiglower, 1, 0, 'txreslower')
+material(3, txsigupper, 1, 0, 'txresupper')
+material(3, rxsiglower, 1, 0, 'rxreslower')
+material(3, rxsigupper, 1, 0, 'rxresupper')
+
+
+# ----BOWTIE----
+bowtieheight = 0.025
+skidthickness = 0.006
+sourceresistance = 1000
+
+x = 0.04
+y = 0.04
+z = 0.10
+tx = x + 0.063, y + 0.052, z + skidthickness
+
+# Tx bowtie
+triangle(tx[0], tx[1] - 0.001, tx[2], tx[0] - 0.026, tx[1] - bowtieheight - 0.001, tx[2], tx[0] + 0.026, tx[1] - bowtieheight - 0.001, tx[2], 0, 'pec')
+edge(tx[0], tx[1] - 0.001, tx[2], tx[0], tx[1], tx[2], 'pec')
+triangle(tx[0], tx[1] + 0.002, tx[2], tx[0] - 0.026, tx[1] + bowtieheight + 0.002, tx[2], tx[0] + 0.026, tx[1] + bowtieheight + 0.002, tx[2], 0, 'pec')
+edge(tx[0], tx[1] + 0.001, tx[2], tx[0], tx[1] + 0.002, tx[2], 'pec')
+
+# Rx bowtie
+triangle(tx[0] + 0.076, tx[1] - 0.001, tx[2], tx[0] + 0.076 - 0.026, tx[1] - bowtieheight - 0.001, tx[2], tx[0] + 0.076 + 0.026, tx[1] - bowtieheight - 0.001, tx[2], 0, 'pec')
+edge(tx[0] + 0.076, tx[1] - 0.001, tx[2], tx[0] + 0.076, tx[1], tx[2], 'pec')
+triangle(tx[0] + 0.076, tx[1] + 0.002, tx[2], tx[0] + 0.076 - 0.026, tx[1] + bowtieheight + 0.002, tx[2], tx[0] + 0.076 + 0.026, tx[1] + bowtieheight + 0.002, tx[2], 0, 'pec')
+edge(tx[0] + 0.076, tx[1] + 0.001, tx[2], tx[0] + 0.076, tx[1] + 0.002, tx[2], 'pec')
+
+# Tx Resistors - lower
+edge(tx[0] - 0.023, tx[1] - bowtieheight - 0.004, tx[2], tx[0] - 0.023, tx[1] - bowtieheight - dy, tx[2], 'txreslower')
+edge(tx[0] - 0.023 + dx, tx[1] - bowtieheight - 0.004, tx[2], tx[0] - 0.023 + dx, tx[1] - bowtieheight - dy, tx[2], 'txreslower')
+edge(tx[0], tx[1] - bowtieheight - 0.004, tx[2], tx[0], tx[1] - bowtieheight - dy, tx[2], 'txreslower')
+edge(tx[0] + dx, tx[1] - bowtieheight - 0.004, tx[2], tx[0] + dx, tx[1] - bowtieheight - dy, tx[2], 'txreslower')
+edge(tx[0] + 0.022, tx[1] - bowtieheight - 0.004, tx[2], tx[0] + 0.022, tx[1] - bowtieheight - dy, tx[2], 'txreslower')
+edge(tx[0] + 0.022 + dx, tx[1] - bowtieheight - 0.004, tx[2], tx[0] + 0.022 + dx, tx[1] - bowtieheight - dy, tx[2], 'txreslower')
+
+# Tx Resistors - upper
+edge(tx[0] - 0.023, tx[1] + bowtieheight + 0.002, tx[2], tx[0] - 0.023, tx[1] + bowtieheight + 0.006, tx[2], 'txresupper')
+edge(tx[0] - 0.023 + dx, tx[1] + bowtieheight + 0.002, tx[2], tx[0] - 0.023 + dx, tx[1] + bowtieheight + 0.006, tx[2], 'txresupper')
+edge(tx[0], tx[1] + bowtieheight + 0.002, tx[2], tx[0], tx[1] + bowtieheight + 0.006, tx[2], 'txresupper')
+edge(tx[0] + dx, tx[1] + bowtieheight + 0.002, tx[2], tx[0] + dx, tx[1] + bowtieheight + 0.006, tx[2], 'txresupper')
+edge(tx[0] + 0.022, tx[1] + bowtieheight + 0.002, tx[2], tx[0] + 0.022, tx[1] + bowtieheight + 0.006, tx[2], 'txresupper')
+edge(tx[0] + 0.022 + dx, tx[1] + bowtieheight + 0.002, tx[2], tx[0] + 0.022 + dx, tx[1] + bowtieheight + 0.006, tx[2], 'txresupper')
+
+# Rx Resistors - lower
+edge(tx[0] - 0.023 + 0.076, tx[1] - bowtieheight - 0.004, tx[2], tx[0] - 0.023 + 0.076, tx[1] - bowtieheight - dy, tx[2], 'rxreslower')
+edge(tx[0] - 0.023 + dx + 0.076, tx[1] - bowtieheight - 0.004, tx[2], tx[0] - 0.023 + dx + 0.076, tx[1] - bowtieheight - dy, tx[2], 'rxreslower')
+edge(tx[0] + 0.076, tx[1] - bowtieheight - 0.004, tx[2], tx[0] + 0.076, tx[1] - bowtieheight - dy, tx[2], 'rxreslower')
+edge(tx[0] + dx + 0.076, tx[1] - bowtieheight - 0.004, tx[2], tx[0] + dx + 0.076, tx[1] - bowtieheight - dy, tx[2], 'rxreslower')
+edge(tx[0] + 0.022 + 0.076, tx[1] - bowtieheight - 0.004, tx[2], tx[0] + 0.022 + 0.076, tx[1] - bowtieheight - dy, tx[2], 'rxreslower')
+edge(tx[0] + 0.022 + dx + 0.076, tx[1] - bowtieheight - 0.004, tx[2], tx[0] + 0.022 + dx + 0.076, tx[1] - bowtieheight - dy, tx[2], 'rxreslower')
+
+# Rx Resistors - upper
+edge(tx[0] - 0.023 + 0.076, tx[1] + bowtieheight + 0.002, tx[2], tx[0] - 0.023 + 0.076, tx[1] + bowtieheight + 0.006, tx[2], 'rxresupper')
+edge(tx[0] - 0.023 + dx + 0.076, tx[1] + bowtieheight + 0.002, tx[2], tx[0] - 0.023 + dx + 0.076, tx[1] + bowtieheight + 0.006, tx[2], 'rxresupper')
+edge(tx[0] + 0.076, tx[1] + bowtieheight + 0.002, tx[2], tx[0] + 0.076, tx[1] + bowtieheight + 0.006, tx[2], 'rxresupper')
+edge(tx[0] + dx + 0.076, tx[1] + bowtieheight + 0.002, tx[2], tx[0] + dx + 0.076, tx[1] + bowtieheight + 0.006, tx[2], 'rxresupper')
+edge(tx[0] + 0.022 + 0.076, tx[1] + bowtieheight + 0.002, tx[2], tx[0] + 0.022 + 0.076, tx[1] + bowtieheight + 0.006, tx[2], 'rxresupper')
+edge(tx[0] + 0.022 + dx + 0.076, tx[1] + bowtieheight + 0.002, tx[2], tx[0] + 0.022 + dx + 0.076, tx[1] + bowtieheight + 0.006, tx[2], 'rxresupper')
+
+
+voltage_source('y', tx[0], tx[1], tx[2], sourceresistance, 'myGaussian')
+
+rx(tx[0], tx[1], tx[2])
+rx(tx[0] + 0.076, tx[1], tx[2])
+
+#end_python:
+
+#geometry_view: 0 0 0 0.264 0.189 0.220 0.001 0.001 0.001 mala_1 n

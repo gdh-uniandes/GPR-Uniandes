@@ -1,0 +1,5 @@
+#material: 1.00 inf 1.0 0 mypec
+#material: 6.49 0.252 1.0 0.0 absorber
+#material: 3.00 0.000 1.0 0.0 pcb
+#material: 2.35 0.000 1.0 0.0 hdpe
+#material: 2.26 0.000 1.0 0.0 polypropylene
