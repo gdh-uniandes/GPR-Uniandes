@@ -16,3 +16,11 @@
     Directorio stl-files: Contiene los archivos CAD usados en la generación del archivo hdf5.
 
 * [HFSS:](https://github.com/gdh-uniandes/GPR-Uniandes/blob/main/Simulaciones/HFSS/) Contiene los archivos de simulaciones realizadas en HFSS de la antena powerLOG y resultados de simulación para escenarios específicos.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Para cada escenario de simulación, se encuentran archivos nombrados con la siguiente estructura:
+
+    *.mstat - Estadísticas de mallado del escenario en HFSS.
+    *.prof - Perfil de uso de recursos computacionales para la ejecución del escenario en HFSS.
+    *.s1p o .s2p - Parámetros S para los puertos que componen el escenario, indicadas para las frecuencias que este se simula.
+    *.png - Imagen que muestra el proceso de convergencia del escenario al ser ejecutado.
+    *-animation_1GHz_XY.gif - Archivo con animación de magnitud de campos electromagnéticos sobre un plano del escenario. En este caso, se presenta la animación de magnitud del campo eléctrico sobre el plano XY para una frecuencia de 1GHz.
