@@ -1,5 +1,4 @@
 *.7z
-*.h5
 *.csv
 mediciones de gpr/*
 __pycache__
