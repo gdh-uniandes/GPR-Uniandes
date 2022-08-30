@@ -25,6 +25,32 @@ python main.py
 
 Adicionalmente, se hizo el programa en [APP-Procesamiento](https://github.com/gdh-uniandes/GPR-Uniandes/tree/main/APP-Procesamiento) con el fin de procesar y graficar las mediciones hechas por el GPR. La aplicación se ejecuta de la misma forma que los programas anteriores.
 
+## Documentación
+En el directorio [Documentos](https://github.com/gdh-uniandes/GPR-Uniandes/tree/main/Documentos) se encuentran los manuales, informes y documentos realizados en el proyecto. La lista de documentos del proyecto es la siguiente.
+
+
+### Manuales
+* [Guide of GPR-20 data: specification, formatting, preprocessing and processing](https://github.com/gdh-uniandes/GPR-Uniandes/blob/main/Documentos/01%20procesamiento%20de%20datos%20de%20GPR.pdf)
+
+* [Manual de uso para la aplicación de procesamiento de datos de GPR](https://github.com/gdh-uniandes/GPR-Uniandes/blob/main/Documentos/Manual_APP_Procesamiento.pdf)
+
+* [Manual de primer uso del GPR del proyecto Desminado Humanitario](https://github.com/gdh-uniandes/GPR-Uniandes/blob/main/Documentos/Manual_Primer_Uso.pdf)
+
+* [Manual de programador para el GPR de laboratorio](https://github.com/gdh-uniandes/GPR-Uniandes/blob/main/Documentos/Manual_Programador_GPR.pdf)
+
+* [Manual de usuario para el GPR de laboratorio](https://github.com/gdh-uniandes/GPR-Uniandes/blob/main/Documentos/Manual_Usuario_GPR.pdf)
+
+### Informes y reportes
+
+* [Mediciones Machine Learning](https://github.com/gdh-uniandes/GPR-Uniandes/blob/main/Documentos/Mediciones_Machine_Learning.pdf)
+
+* [Sistema de detección de minas GPR y Machine Learning](https://github.com/gdh-uniandes/GPR-Uniandes/blob/main/Documentos/Sistema_de_detecci_n_de_minas_GPR_y_Machine_Learning.pdf) 
+
+* [UDT Migration](https://github.com/gdh-uniandes/GPR-Uniandes/blob/main/Documentos/UDT_Migration.pdf)
+
+## Archivos de simulación
+En la carpeta [Simulaciones](https://github.com/gdh-uniandes/GPR-Uniandes/tree/main/Simulaciones) se han puesto todos los archivos necesarios para simular en HFSS y/o gprMax y llegar a los resultados obtenidos en los escenarios propuestos. Revisar el [README](https://github.com/gdh-uniandes/GPR-Uniandes/tree/main/Simulaciones/README.md) en la carpeta para entender la distribución de los archivos.
+
 ## GPRs del laboratorio
 El laboratorio de Desminado Humanitario de la Universidad de los Andes cuenta con un GPR fijo ubicado en una caja de tierras y un GPR portable diseñado para la toma de muestras en exteriores.
 
