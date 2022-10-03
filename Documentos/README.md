@@ -21,3 +21,7 @@ Documentos del proyecto.
 * [UDT Migration](https://github.com/gdh-uniandes/GPR-Uniandes/blob/main/Documentos/UDT_Migration.pdf) - Procedimiento y ecuaciones del algoritmo de [Migración UDT](https://github.com/gdh-uniandes/GPR-Uniandes/blob/main/scripts%20procesamiento/05_detection/udt_imaging.ipynb). Resultados de aplicar los algoritmos en los escenarios especificados en [Sistema de detección de minas GPR y Machine Learning](https://github.com/gdh-uniandes/GPR-Uniandes/blob/main/Documentos/Sistema_de_detecci_n_de_minas_GPR_y_Machine_Learning.pdf). 
 
 
+* [Simulaciones GPR en HFSS](https://github.com/gdh-uniandes/GPR-Uniandes/blob/main/Documentos/Simulaciones_GPR_HFSS.pdf) - Reporte de las simulaciones presentadas en la ruta del repositorio [/Simulaciones/HFSS](https://github.com/gdh-uniandes/GPR-Uniandes/tree/main/Simulaciones/HFSS).
+
+* [Conversion de archivos CAD gprMax](https://github.com/gdh-uniandes/GPR-Uniandes/blob/main/Documentos/Conversion_de_archivos_CAD_gprMax.pdf) - Informe donde se analiza el uso del software [stl-to-hdf5-gprMax](https://github.com/gaboandres1/stl-to-hdf5-gprMax) y se presentan los resultados de las simulaciones presentes en la ruta del repositorio [/Simulaciones/gprMax](https://github.com/gdh-uniandes/GPR-Uniandes/tree/main/Simulaciones/gprMax)
+

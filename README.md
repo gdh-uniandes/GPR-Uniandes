@@ -57,6 +57,10 @@ En el directorio [Documentos](https://github.com/gdh-uniandes/GPR-Uniandes/tree/
 
 * [UDT Migration](https://github.com/gdh-uniandes/GPR-Uniandes/blob/main/Documentos/UDT_Migration.pdf)
 
+* [Simulaciones GPR en HFSS](https://github.com/gdh-uniandes/GPR-Uniandes/blob/main/Documentos/Simulaciones_GPR_HFSS.pdf)
+
+* [Conversion de archivos CAD gprMax](https://github.com/gdh-uniandes/GPR-Uniandes/blob/main/Documentos/Conversion_de_archivos_CAD_gprMax.pdf)
+
 ## Archivos de simulación
 En la carpeta [Simulaciones](https://github.com/gdh-uniandes/GPR-Uniandes/tree/main/Simulaciones) se han puesto todos los archivos necesarios para simular en HFSS y/o gprMax y llegar a los resultados obtenidos en los escenarios propuestos. Revisar el [README](https://github.com/gdh-uniandes/GPR-Uniandes/tree/main/Simulaciones/README.md) en la carpeta para entender la distribución de los archivos.
 
