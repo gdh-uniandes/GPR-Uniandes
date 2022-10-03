@@ -1,0 +1,78 @@
+#title: HORN Antenna: Radiation Pattern simulation
+#domain: 0.406 0.344 0.322
+#dx_dy_dz: 0.001 0.001 0.001
+#time_window: 7.9e-9
+
+#excitation_file: ./sine.txt
+#waveform: gaussian 0 1e9 zero_pulse
+#material: 1.735 0 1 0 dielec
+#material: 1 0 1 0 space_free
+
+#python:
+from gprMax.input_cmd_funcs import *
+import numpy as np
+x = 0.088
+y = 0.088
+z = 0.088
+dx = 0.001
+
+monopole_height = 0.031
+coaxial_height = 0.025
+coaxial_space = 0.021 + dx
+thickness = 0.004
+
+modelpath = './HORN.h5'
+matspath = './HORN_mats.txt'
+
+def coaxial(xo, yo, zo, r1, r2, impedance, pulse):
+  cylinder(xo, yo, zo, xo, yo + dx, zo, r1, 'free_space')
+  for x_p in np.arange(xo-r2, xo+r2, dx):
+      for z_p in np.arange(zo-r2, zo+r2, dx):
+          if ((x_p-xo + 0.5*dx)**2 + (z_p-zo + 0.5*dx)**2)**0.5 <= r2:
+              voltage_source('y', x_p, yo, z_p, impedance, pulse)
+              if (x_p >= (xo + r1)) and ((z_p < (zo + dx)) and (z_p >= (zo - dx))):
+                rx(x_p, yo, z_p)
+
+geometry_objects_read(x, y, z, modelpath, matspath)
+
+cylinder(0.115 + x, 0, 0.041 + z, 0.115 + x, 0.057 + y, 0.041 + z, 0.003 + thickness, 'pec')
+cylinder(0.115 + x, 0, 0.041 + z, 0.115 + x, 0.057 + y, 0.041 + z, 0.003, 'dielec')
+cylinder(0.115 + x, 0, 0.041 + z, 0.115 + x, 0.057 + y, 0.041 + z, 0.001, 'pec')
+cylinder(0.115 + x, 0.03, 0.041 + z, 0.115 + x, 0.03 + dx, 0.041 + z, 0.001, 'space_free')
+#cylinder(0.115 + x, 0.01, 0.041 + z, 0.115 + x, 0.011 + dx, 0.041 + z, 0.003, 'pec')
+
+cylinder(0.115 + x, 0.057 + y, 0.041 + z, 0.115 + x, 0.057 + monopole_height + y, 0.041 + z, 0.001, 'pec')
+#edge(0.115 + x, 0.057 + y, 0.041 + z, 0.115 + x, 0.057 + monopole_height + y, 0.041 + z, 'pec')
+
+#rx(0.115 + x, 0.057 - coaxial_height - coaxial_space + y, 0.041 + z)
+#voltage_source('y', 0.115 + x - dx, 0.03, 0.041 + z, 50, 'bd_pulse')
+#voltage_source('y', 0.115 + x, 0.03, 0.041 + z - dx, 50, 'bd_pulse')
+#voltage_source('y', 0.115 + x - dx, 0.03, 0.041 + z - dx, 50, 'bd_pulse')
+
+
+
+xo = 0.115 + x 
+yo = 0.030
+zo = 0.041 + z
+r = 0.003
+
+coaxial(xo, yo, zo, 0.001, 0.003, 50, 'bd_pulse')
+rx(0.115 + x, 0.171, 0.169)
+rx(0.115 + x, 0.171, 0.199)
+rx(0.115 + x, 0.171, 0.229)
+
+THETA = np.arange(0, 180 + 2, 2)
+PHI = np.arange(90, 450 + 2, 2)
+radius = 0.140
+for theta in THETA:
+    for phi in PHI:
+        x = radius * np.sin(np.deg2rad(theta))*np.sin(np.deg2rad(phi)) + 0.088 + 0.115
+        y = radius * np.cos(np.deg2rad(theta)) + 0.171
+        z = radius * np.sin(np.deg2rad(theta))*np.cos(np.deg2rad(phi)) + 0.169
+        rx(x, y, z)
+        #box(x, y, z, x + dx, y + dx, z + dx, 'space_free')
+
+#end_python:
+
+
+##geometry_view: 0 0 0 0.406 0.344 0.322 0.001 0.001 0.001 horn_geometry_1mm_pattern n

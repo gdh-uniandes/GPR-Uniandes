@@ -1,0 +1,56 @@
+#title: Infinite Coaxial Transmission Line
+#domain: 0.1 0.308 0.1
+#dx_dy_dz: 0.0005 0.0005 0.0005
+#time_window: 7.9e-9
+
+#excitation_file: ./wave.txt
+#waveform: gaussian 0 1e9 zero_pulse
+#material: 1.735 0 1 0 dielec
+#material: 1 inf 1 0 mypec
+#material: 1 0 1 0 space_free
+
+#python:
+from gprMax.input_cmd_funcs import *
+import numpy as np
+x = 0.05
+y = 0.04
+z = 0.05
+
+dx = 0.0005
+
+coaxial_height = 0.150
+rad_1 = 0.001
+rad_2 = 0.003
+thickness = 0.004
+h = 0.308
+
+def coaxial(xo, yo, zo, r1, r2, impedance, pulse):
+  cylinder(xo, yo, zo, xo, yo + dx, zo, r1, 'free_space')
+  for x_p in np.arange(xo-r2, xo+r2, dx):
+      for z_p in np.arange(zo-r2, zo+r2, dx):
+          if ((x_p-xo + 0.5*dx)**2 + (z_p-zo + 0.5*dx)**2)**0.5 <= r2:
+              voltage_source('y', x_p, yo, z_p, impedance, pulse)
+              if (x_p >= (xo + r1)) and ((z_p < (zo + dx)) and (z_p >= (zo - dx))):
+                rx(x_p, yo, z_p)
+
+cylinder(x, 0, z, x, h, z, rad_2 + thickness, 'pec')
+cylinder(x, 0, z, x, h, z, rad_2, 'dielec')
+cylinder(x, 0, z, x, h, z, rad_1, 'pec')
+#cylinder(x, y, z, x, y + dx, z, rad_1, 'space_free')
+#cylinder(x, y + 0.150, z, x, y + 0.150 + dx, z, rad_1 + dx, 'space_free')
+
+#edge(x, y + thickness, z, x + rad_2, y + thickness, z, 'pec')
+#edge(x + rad_1 + dx, y + thickness, z, x + rad_1 + 2*dx, y + thickness, z, 'space_free')
+#box(x + rad_1 + dx, y + thickness, z, x + rad_1 + 2*dx, y + thickness + dx, z + dx, 'space_free')
+
+coaxial(x, y, z, rad_1, rad_2, 50, 'bd_pulse')
+coaxial(x, y + 0.150, z, rad_1, rad_2, 50, 'zero_pulse')
+
+#end_python:
+
+
+#geometry_view: 0 0 0 0.1 0.308 0.1 0.0005 0.0005 0.0005 coaxial_line_tl n
+
+
+
+

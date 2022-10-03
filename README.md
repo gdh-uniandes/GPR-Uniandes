@@ -1,11 +1,20 @@
 # GPR-Uniandes
 
-Proyecto Desminado Humanitario para la detección de explosivos con el uso de un GPR. Este repositorio es un resumen del proyecto Desminado Humanitario desarrollado en los repositorios [https://gitlab.com/desminadohumanitariouniandes](https://gitlab.com/desminadohumanitariouniandes). Para conocer rápidamente cómo poner en marcha el GPR, tomar muestras y graficarlas se recomienda revisar el [manual de primer uso del GPR](https://github.com/gdh-uniandes/GPR-Uniandes/blob/main/Documentos/Manual_Primer_Uso.pdf). Se recomienda también revisar cada sección a continuación.
+Proyecto Desminado Humanitario para la detección de explosivos con el uso de un GPR.
+En este repositorio contiene los siguientes archivos del proyecto.
+* Software para el control de los GPR del laboratorio Desminado Humanitario.
+* Software para el procesamiento de las mediciones hechas con el GPR del laboratorio.
+* Manuales y documentación del software de los equipos GPR.
+* Informes de mediciones de GPR y técnicas de procesamiento aplicadas (así como enlace de descarga a los datos tomados).
+* Archivos de simulaciones en HFSS y gprMax, junto con su respectivos informes.
+* Contenido multimedia (fotos y videos) para observar los equipos de laboratorio.
+* Links de acceso a repositorios complementarios del proyecto.
 
+Para conocer rápidamente cómo poner en marcha el GPR, tomar muestras y graficarlas se recomienda revisar el [manual de primer uso del GPR](https://github.com/gdh-uniandes/GPR-Uniandes/blob/main/Documentos/Manual_Primer_Uso.pdf). Se recomienda también revisar cada sección de este README.
 
 ## Instalación
 
-La instalación de las dependencias de Python se ejecuta con el siguiente comando.
+Para utilizar todo software de este repositorio es necesario tener instalado Python 3. Además, instalar las dependencias de Python necesarias ejecutando el siguiente comando.
 
 ```
 pip install -r requirements.txt

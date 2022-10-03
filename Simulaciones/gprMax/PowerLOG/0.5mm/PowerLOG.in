@@ -1,0 +1,55 @@
+#title: PowerLOG Antenna in free space with broadband pulse as excitation
+#domain: 0.433 0.36 0.365
+#dx_dy_dz: 0.0005 0.0005 0.0005
+#time_window: 8.9e-9
+
+## Excitations
+#excitation_file: ./wave.txt
+
+## Materials
+#material: 1.735 0 1 0 dielec
+#material: 1 0 1 0 space_free
+
+## Antennas
+#python:
+from gprMax.input_cmd_funcs import *
+import numpy as np
+
+def coaxial(xo, yo, zo, r1, r2, impedance, pulse):
+  cylinder(xo, yo, zo, xo + dx, yo, zo, r1, 'space_free')
+  for y_p in np.arange(yo-r2, yo+r2, dx):
+      for z_p in np.arange(zo-r2, zo+r2, dx):
+          if ((y_p-yo + 0.5*dx)**2 + (z_p-zo + 0.5*dx)**2)**0.5 <= r2:
+              voltage_source('x', xo, y_p, z_p, impedance, pulse)
+              if (z_p >= (zo + 0*r1)) and ((y_p < (yo + dx)) and (y_p >= (yo - dx))):
+              #if (y_p >= (yo + 0*r1)) and ((z_p < (zo + dx)) and (z_p >= (zo - dx))):
+                rx(xo, y_p, z_p)
+
+
+dx = 0.0005
+
+file = './PowerLOG.h5'
+materials1 = './PowerLOG_mats.txt'
+
+x = 0.075
+y = 0.075
+z = 0.075
+geometry_objects_read(x, y, z, file, materials1)
+
+rad_1 = 0.001
+rad_2 = 0.003
+cylinder(x + 0.132, y + 0.123, z + 0.197, 0.433, y + 0.123, z + 0.197, 0.004, 'pec')
+cylinder(x + 0.092, y + 0.123, z + 0.197, 0.433, y + 0.123, z + 0.197, rad_2, 'dielec')
+cylinder(x + 0.090, y + 0.123, z + 0.197, 0.433, y + 0.123, z + 0.197, rad_1, 'pec')
+
+coaxial(0.403, y + 0.123, z + 0.197, rad_1, rad_2, 50, 'bd_pulse')
+
+rx(x + 0.091, y + 0.123, z + 0.197 - 0.200)
+rx(x + 0.091, y + 0.123, z + 0.197 - 0.230)
+rx(x + 0.091, y + 0.123, z + 0.197 - 0.260)
+
+#end_python:
+
+##geometry_view: 0.075 0.075 0.075 0.259 0.323 0.291 0.0005 0.0005 0.0005 free_antenna05 n
+
+
