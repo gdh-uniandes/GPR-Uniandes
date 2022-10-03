@@ -10,7 +10,7 @@ En este repositorio contiene los siguientes archivos del proyecto.
 * Contenido multimedia (fotos y videos) para observar los equipos de laboratorio.
 * Links de acceso a repositorios complementarios del proyecto.
 
-Para conocer rápidamente cómo poner en marcha el GPR, tomar muestras y graficarlas se recomienda revisar el [manual de primer uso del GPR](https://github.com/gdh-uniandes/GPR-Uniandes/blob/main/Documentos/Manual_Primer_Uso.pdf). Se recomienda también revisar cada sección de este README.
+Para conocer rápidamente cómo poner en marcha el GPR, tomar muestras y graficarlas se recomienda revisar el [manual de primer uso del GPR](https://github.com/gdh-uniandes/GPR-Uniandes/blob/main/Documentos/Manual_Primer_Uso.pdf). Se recomienda también revisar cada sección de este README para ubicar todos los elementos presentes en este repositorio.
 
 ## Instalación
 
@@ -62,7 +62,7 @@ En el directorio [Documentos](https://github.com/gdh-uniandes/GPR-Uniandes/tree/
 * [Conversion de archivos CAD gprMax](https://github.com/gdh-uniandes/GPR-Uniandes/blob/main/Documentos/Conversion_de_archivos_CAD_gprMax.pdf)
 
 ## Archivos de simulación
-En la carpeta [Simulaciones](https://github.com/gdh-uniandes/GPR-Uniandes/tree/main/Simulaciones) se han puesto todos los archivos necesarios para simular en HFSS y/o gprMax y llegar a los resultados obtenidos en los escenarios propuestos. Revisar el [README](https://github.com/gdh-uniandes/GPR-Uniandes/tree/main/Simulaciones/README.md) en la carpeta para entender la distribución de los archivos.
+En la carpeta [Simulaciones](https://github.com/gdh-uniandes/GPR-Uniandes/tree/main/Simulaciones) se han puesto todos los archivos necesarios para simular en HFSS y/o gprMax y llegar a los resultados obtenidos en los escenarios propuestos. Revisar el [README](https://github.com/gdh-uniandes/GPR-Uniandes/tree/main/Simulaciones/README.md) en la carpeta para entender la distribución de los archivos. También, en los informes de simulación en [HFSS](https://github.com/gdh-uniandes/GPR-Uniandes/blob/main/Documentos/Simulaciones_GPR_HFSS.pdf) y [gprMax](https://github.com/gdh-uniandes/GPR-Uniandes/blob/main/Documentos/Conversion_de_archivos_CAD_gprMax.pdf) se encuentran hipervinculos a la carpeta que contiene los archivos de soporte de las simulaciones en cuestión, por lo que se recomienda su lectura.
 
 ## GPRs del laboratorio
 El laboratorio de Desminado Humanitario de la Universidad de los Andes cuenta con un GPR fijo ubicado en una caja de tierras y un GPR portable diseñado para la toma de muestras en exteriores.
@@ -82,7 +82,12 @@ El laboratorio de Desminado Humanitario de la Universidad de los Andes cuenta co
 ## Bases de datos
 En este enlace de [Google Drive](https://drive.google.com/drive/u/1/folders/1AtGNdvX9DbkHRUMq4o7JJagvuWf7gbRh) se encuentran para su descarga las mediciones tomadas en el laboratorio con el GPR. Se recomienda revisar el [manual de procesamiento GPR](https://github.com/gdh-uniandes/GPR-Uniandes/blob/main/Documentos/01%20procesamiento%20de%20datos%20de%20GPR.pdf) en el capítulo 3 donde se describe la nomenclatura utilizada en los metadatos de los archivos .h5 para etiquetar las mediciones hechas.
 
+## Repositorios adicionales del proyecto Desminado Humanitario
+Otros archivos y documentos del proyecto Desminado Humanitario que no están presentes en este repositorio, se encuentran en los siguientes repositorios.
 
+* [GPR-20 Start Guide](https://github.com/gdh-uniandes/gpr20_start_guide) - Documento con la guía de inicio del GPR-20, el cual es un GPR portable con extensa documentación, pensado para que pueda construirse por cualquier persona con una impresora 3D. En este documento se encuentra la descripción del GPR-20 y enlaces para acceder a sus manuales y archivos de soporte.
+
+* [stl-to-hdf5-gprMax](https://github.com/gaboandres1/stl-to-hdf5-gprMax) - Repositorio para instalar la herramienta para convertir archivos CAD en geometrías gprMax. En este repositorio está explicado el uso del software y su instalación.
 
 ## Equipo de trabajo
 
