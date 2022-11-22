@@ -3,6 +3,7 @@ date-released: 2022-11-22
 message: "If you use this project, please cite it as below."
 title: "Desminado Humanitario"
 url: "https://github.com/gdh-uniandes/GPR-Uniandes"
+type: project-repository
 authors:
   - family-names: "Bustamante Miller"
     given-names: Roberto
