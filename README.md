@@ -1,6 +1,6 @@
 # GPR-Uniandes
 
-Proyecto Desminado Humanitario para la detección de explosivos con el uso de un GPR.
+Proyecto Desminado Humanitario para la detección de minas terrestres con el uso de un GPR.
 En este repositorio contiene los siguientes archivos del proyecto.
 * Software para el control de los GPR del laboratorio Desminado Humanitario.
 * Software para el procesamiento de las mediciones hechas con el GPR del laboratorio.
