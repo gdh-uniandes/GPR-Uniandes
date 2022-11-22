@@ -65,6 +65,8 @@ En el directorio [Documentos](https://github.com/gdh-uniandes/GPR-Uniandes/tree/
 
 * [Estimación de la permitividad y espesor de capas](https://github.com/gdh-uniandes/GPR-Uniandes/blob/main/Documentos/Estimaci%C3%B3n%20de%20la%20permitividad%20y%20espesor%20de%20un%20medio%20por%20capas.pdf)
 
+* [Desminado Humanitario en Colombia visto como Sistema](https://github.com/gdh-uniandes/GPR-Uniandes/blob/main/Documentos/Desminado%20Humanitario%20en%20Colombia%20visto%20como%20Sistema.pdf)
+
 ## Archivos de simulación
 En la carpeta [Simulaciones](https://github.com/gdh-uniandes/GPR-Uniandes/tree/main/Simulaciones) se han puesto todos los archivos necesarios para simular en HFSS y/o gprMax y llegar a los resultados obtenidos en los escenarios propuestos. Revisar el [README](https://github.com/gdh-uniandes/GPR-Uniandes/tree/main/Simulaciones/README.md) en la carpeta para entender la distribución de los archivos. También, en los informes de simulación en [HFSS](https://github.com/gdh-uniandes/GPR-Uniandes/blob/main/Documentos/Simulaciones_GPR_HFSS.pdf) y [gprMax](https://github.com/gdh-uniandes/GPR-Uniandes/blob/main/Documentos/Conversion_de_archivos_CAD_gprMax.pdf) se encuentran hipervinculos a la carpeta que contiene los archivos de soporte de las simulaciones en cuestión, por lo que se recomienda su lectura.
 
