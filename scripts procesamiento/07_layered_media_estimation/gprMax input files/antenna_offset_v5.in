@@ -1,0 +1,20 @@
+#title: Antenna Offset
+#domain: 1.5 1 0.002
+#dx_dy_dz: 0.002 0.002 0.002
+#time_window: 14e-9
+
+#material: 2 0 1 0 snow
+#material: 6 0 1 0 ice
+#material: 80 0 1 0 water
+
+#waveform: ricker 1 1.5e9 my_ricker
+#hertzian_dipole: z 0.45 0.800 0 my_ricker
+
+#rx: 0.55 0.800 0
+#src_steps: -0.01 0 0
+#rx_steps: 0.01 0 0
+
+#box: 0 0.500 0 1.5 0.800 0.002 snow
+#box: 0 0.300 0 1.5 0.600 0.002 ice
+#box: 0 0.000 0 1.5 0.300 0.002 water
+

@@ -1,0 +1,20 @@
+#title: MPDL-LR
+#domain: 10.10 1 0.002
+#dx_dy_dz: 0.002 0.002 0.002
+#time_window: 8e-9
+
+#soil_peplinski: 0.90 0.10 2.0 2.66 0.001 0.25 my_soil
+#material: 3.0 0 1 0 sand
+#material: 2.2 0 1 0 plastic_1
+#material: 2.3 0 1 0 plastic_2
+#material: 2.4 0 1 0 plastic_3
+
+#waveform: ricker 1 3.6e9 my_ricker
+#hertzian_dipole: z 0.05 0.825 0 my_ricker
+
+#rx: 0.10 0.825 0
+#src_steps: 0.01 0 0
+#rx_steps: 0.01 0 0
+
+#fractal_box: 0 0 0 10.10 0.800 0.002 1.5 1 1 1 25 my_soil soil_box 27
+#add_surface_roughness: 0 0.800 0 10.10 0.800 0.002 1.5 1 1 0.775 0.825 soil_box 27
