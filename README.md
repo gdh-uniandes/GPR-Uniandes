@@ -93,7 +93,7 @@ Otros archivos y documentos del proyecto Desminado Humanitario que no están pre
 
 * [stl-to-hdf5-gprMax](https://github.com/gaboandres1/stl-to-hdf5-gprMax) - Repositorio para instalar la herramienta para convertir archivos CAD en geometrías gprMax. En este repositorio está explicado el uso del software y su instalación.
 
-## Equipo de trabajo
+## Grupo de Desminado Humanitario
 
 Universidad de Los Andes, Bogotá D.C, Colombia.
 
@@ -104,3 +104,5 @@ Universidad de Los Andes, Bogotá D.C, Colombia.
 * Luis Felipe Quiroga Fuquen - Asistente graduado Maestría de Investigación.
 * Leonel Andrés Polanía Arias - Ingeniero Electrónico y de Sistemas.
 * Gabriel Andrés Pérez González - Ingeniero Electrónico.
+
+Contacto: desminadohumanitario@uniandes.edu.co
