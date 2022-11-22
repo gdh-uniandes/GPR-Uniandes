@@ -25,7 +25,7 @@ class AScanWidget(QWidget):
         ax.set_xlabel("Tiempo (s)")
         ax.set_ylabel("Magnitud (V/V)")
         ax.set_xlim(self.low_limit, self.high_limit)
-        ax.set_ylim(-0.04, 0.04)
+        #ax.set_ylim(-0.04, 0.04)
         ax.grid(b=True)
         ax.set_aspect('auto')
         self.canvas.draw()

@@ -2,7 +2,8 @@
 import time
 from PyQt5.QtCore import QThread, pyqtSignal
 
-
+WORKING_TIME = 3600*10
+SLEEP_TIME = 10
 class MoverPosicionador(QThread):
 
     # Señal que indica que el posicionador llego a su ubicacion deseada
@@ -43,7 +44,7 @@ class MoverPosicionador(QThread):
         Returns:
 
         """
-
+        #last_time = time.time()
         while self.running:
 
             if self.continuar:
@@ -59,6 +60,17 @@ class MoverPosicionador(QThread):
                     self.arrivedSignal.emit(self.index, punto)
                     self.continuar = False
                     self.index += 1
+
+                    #actual_time = time.time() - last_time
+                    #if actual_time >= WORKING_TIME:
+                        #last_time = time.time()
+                        #self.objeto_serial.serial_port.write('$SLP'.encode('utf-8'))
+                        #while (time.time() - last_time) <= SLEEP_TIME:
+                            #print("SLEEP")
+                            #pass
+                        #self.objeto_serial.serial_port.write(chr('24').encode('utf-8'))
+                        #self.objeto_serial.serial_port.write('$X'.encode('utf-8'))
+                        #last_time = time.time()
 
                 except AssertionError as ae:
                     print(str(ae))

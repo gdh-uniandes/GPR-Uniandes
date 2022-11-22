@@ -13,6 +13,7 @@ from GUI.ascan_widget import AScanWidget
 from GUI.bscan_widget import BScanWidget
 
 from Hilos.mover_posicionador_thread import MoverPosicionador
+#from Hilos.procesar_datos_thread import ProcesarDatos
 
 import multiprocessing as mp
 from threading import Thread
@@ -127,13 +128,12 @@ class MainWindow(QWidget):
 
     def configurar_sweep(self, f_min, f_max, n_puntos):
         # Se configura el barrido de frecuencias en el VNA
-        puntos = self.objeto_vna.set_sweep(fstar=f_min, fstop=f_max, qpoints=n_puntos)
+        puntos = int(self.objeto_vna.set_sweep(fstar=f_min, fstop=f_max, qpoints=n_puntos))
 
         # Se fija la traza como el parámetro S21
         self.objeto_vna.set_trace(tnumber=1, sparameter="S21", format="SMITH")
-
         # Se define el tamaño del vector para la traza A
-        if puntos % 2 == 0:
+        if (puntos % 2):
         	len_traza_a = puntos / 2
         else:
         	len_traza_a = puntos // 2 + 1
@@ -189,9 +189,9 @@ class MainWindow(QWidget):
         self.widget_estado.fijar_puntos_totales(len(p_trayectoria))
 
         # Se inicia un hilo que actualiza la grafica de la traza A
-        timer_a = QTimer(self)
-        timer_a.timeout.connect(self.actualizar_traza_a)
-        timer_a.start(500)
+        #timer_a = QTimer(self)
+        #timer_a.timeout.connect(self.actualizar_traza_a)
+        #timer_a.start(500)
 
         # Incia el movimiento del posicionador
         self.mover_posicionador = MoverPosicionador(p_trayectoria, self.objeto_serial)
@@ -262,18 +262,23 @@ class MainWindow(QWidget):
         freq, len_zeros, Nf = procesamiento.formatear_frecuencia(freq)
 
         # Se crea el vector de tiempo para la traza A
-        tiempo = procesamiento.tiempo(freq)
+        #tiempo = procesamiento.tiempo(freq)
 
         # Se crea la traza A con los parametros de dispersion
-        traza_a = procesamiento.calcular_traza_a(s_complex, len(tiempo), len_zeros, Nf)
+        #traza_a = procesamiento.calcular_traza_a(s_complex, len(tiempo), len_zeros, Nf)
 
         # Se crea la traza A que será graficada
-        traza_a_grafica = procesamiento.grafica_traza_a(traza_a)
+        #traza_a_grafica = procesamiento.grafica_traza_a(traza_a)
 
-        # Se actualizan las variables compartidas para la traza A
-        for indx in range(len(traza_a)):
-            sh_traza_a[indx] = traza_a_grafica[indx]
-            sh_tiempo[indx] = tiempo[indx]
+        #try:
+            # Se actualizan las variables compartidas para la traza A
+            #for indx in range(len(traza_a)):
+                #sh_traza_a[indx] = traza_a_grafica[indx]
+                #sh_tiempo[indx] = tiempo[indx]
+            # Se almacenan los valores de los parametros de la traza A
+            #procesamiento.almacenar_traza_a(traza_a, tiempo, punto, path)
+        #except:
+            #print("No se graficara o almacenara la TRAZA A")
 
         # Se actualizan las variables compartidas para la traza B
         # TODO: actualizar variables traza B
@@ -281,7 +286,5 @@ class MainWindow(QWidget):
         # Se almacenan los valores de los parametros de dispersion
         procesamiento.almacenar_parametros_s(s_re_val, s_im_val, freq, punto, path)
 
-        # Se almacenan los valores de los parametros de la traza A
-        procesamiento.almacenar_traza_a(traza_a, tiempo, punto, path)
 
         del procesamiento

@@ -54,7 +54,7 @@ class VNAWidget(QWidget):
         ip_input_layout.addWidget(self.bt_preset)
 
         # Linea para ingresar la frecuencia inicial del barrido
-        self.input_start_freq = QLineEdit("600e6")
+        self.input_start_freq = QLineEdit("1e9")
         self.input_start_freq.setEnabled(False)
 
         # Linea para ingresar la frecuencia final del barrido
@@ -62,7 +62,7 @@ class VNAWidget(QWidget):
         self.input_stop_freq.setEnabled(False)
 
         # Linea para ingresar la cantidad de puntos del barrido
-        self.input_sweep_points = QLineEdit("512")
+        self.input_sweep_points = QLineEdit("501")
         self.input_sweep_points.setInputMask("9999")
         self.input_sweep_points.setEnabled(False)
 
@@ -103,7 +103,7 @@ class VNAWidget(QWidget):
         calibrate_layout.addWidget(self.bt_calibrate)
 
         # Linea para preguntar la ruta donde almacenar las mediciones
-        self.input_store_route = QLineEdit("C:\\")
+        self.input_store_route = QLineEdit("~/Dekstop")
         self.input_store_route.setEnabled(False)
 
         # Boton para confirmar la ruta donde almacenar las mediciones

@@ -153,12 +153,13 @@ class PosicionadorWidget(QWidget):
             # Se inicializa la lista con los puntos de la trayectoria
             trayectoria = []
 
+            for_range = list(range(n_steps_y + 1))
             # Se agregan los puntos del recorrido de grilla a la lista
             for i in range(n_steps_x + 1):
-                for j in range(n_steps_y + 1):
+                for j in for_range:
                     punto = [p_x_init[0] + i * dx, p_x_init[1] + j * dy]
                     trayectoria.append(punto)
-
+                for_range.reverse()
         # Devuelve la trayectoria que fue calculada
         return trayectoria
 

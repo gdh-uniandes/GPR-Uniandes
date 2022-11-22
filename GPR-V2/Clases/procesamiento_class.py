@@ -70,6 +70,7 @@ class Procesamiento:
         filename = "VNA_data_X" + str(punto[0]) + "_Y" + str(punto[1]) + ".csv"
         filepath = path + filename
         csv_file = open(filepath, 'w+')
+        print(filepath+" created")
         csv_file.write("Frequency,S21_real,S21_imag\n")
         assert len(s_re) == len(s_im), "Los datos no tienen igual longitud"
         for indx in range(len(s_re)):
