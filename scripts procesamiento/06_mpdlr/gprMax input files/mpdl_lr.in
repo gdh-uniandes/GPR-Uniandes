@@ -1,0 +1,28 @@
+#title: MPDL-LR
+#domain: 10.10 1 0.002
+#dx_dy_dz: 0.002 0.002 0.002
+#time_window: 8e-9
+
+#material: 3.0 0 1 0 sand
+#material: 2.2 0 1 0 plastic_1
+#material: 2.3 0 1 0 plastic_2
+#material: 2.4 0 1 0 plastic_3
+
+#waveform: ricker 1 3.6e9 my_ricker
+#hertzian_dipole: z 0.05 0.800 0 my_ricker
+
+#rx: 0.10 0.800 0
+#src_steps: 0.05 0 0
+#rx_steps: 0.05 0 0
+
+#box: 0 0 0 10.10 0.800 0.002 sand
+#cylinder: 0.10 0.50 0 0.10 0.60 0 0.035 plastic_1
+#cylinder: 1.10 0.50 0 1.10 0.60 0 0.040 plastic_2
+#cylinder: 2.10 0.50 0 2.10 0.70 0 0.035 plastic_3
+#cylinder: 3.10 0.40 0 3.10 0.50 0 0.050 plastic_2
+#cylinder: 4.10 0.30 0 4.10 0.50 0 0.050 plastic_1
+#cylinder: 5.10 0.50 0 5.10 0.60 0 0.100 plastic_1
+#cylinder: 6.10 0.40 0 6.10 0.50 0 0.100 plastic_3
+#cylinder: 7.10 0.50 0 7.10 0.60 0 0.070 plastic_2
+#cylinder: 8.10 0.60 0 8.10 0.75 0 0.080 plastic_1
+#cylinder: 9.10 0.65 0 9.10 0.70 0 0.050 plastic_3
