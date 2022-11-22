@@ -1,9 +1,20 @@
 cff-version: 1.2.0
-message: "If you use this software, please cite it as below."
+date-released: 2022-11-22
+message: "If you use this project, please cite it as below."
+title: "Desminado Humanitario"
+url: "https://github.com/gdh-uniandes/GPR-Uniandes"
 authors:
-  - family-names: Uniandes
-    given-names: Desminado Humanitario
-    orcid: https://github.com/gaboandres1/GPR-Uniandes
-title: "GPR-Uniandes"
-version: 2.0.0
-date-released: 2021-10-31
+  - family-names: "Bustamante Miller"
+    given-names: Roberto
+  - family-names: Gutierrez
+    given-names: Ángel
+  - family-names: "González Ramízez"
+    given-names: "Daniel Julián"
+  - family-names: "Rocha Pacheco"
+    given-names: Nicolás
+  - family-names: "Quiroga Fuquen"
+    given-names: "Luis Felipe"
+  - family-names: "Polanía Árias"
+    given-names: "Leonel Andrés"
+  - family-names: "Pérez González"
+    given-names: "Gabriel Andrés"
