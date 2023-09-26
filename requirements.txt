@@ -2,7 +2,7 @@ pyserial
 pyqt5
 numpy
 scipy
-matplotlib
+matplotlib==3.5
 mayavi
 numba
 python-vxi11
