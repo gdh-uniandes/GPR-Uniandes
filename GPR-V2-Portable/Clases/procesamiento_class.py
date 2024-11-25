@@ -1,6 +1,6 @@
 
 import numpy as np
-from os import mkdir
+import os
 
 from Funciones.gpr20_ifft import inverse_fast_fourier
 
@@ -77,18 +77,31 @@ class Procesamiento:
                 csv_file.write(str_s)
         # csv_file.close()
 
-    def almacenar_traza_a(self, traza_a, tiempo, punto, path):
-        ts = tiempo[0] * 1e6
-        te = tiempo[-1] * 1e6
-        filename = "Time_X" + str(punto[0]) + "_Y" + str(punto[1]) + "_OrX_Ts" + str(ts) + "u_Te" + str(te) + "u_Qt" + str(len(tiempo)) + "_H150.csv"
-        filepath = path + filename
-        csv_file = open(filepath, 'w+')
-        csv_file.write("A-scan_real,A-scan_imag\n")
-        for indx in range(len(tiempo)):
-            str_a = str( np.real(traza_a[indx])) + ',' + str(np.imag(traza_a[indx])) + '\n'
-            csv_file.write(str_a)
-        csv_file.close()
+    def almacenar_parametros_s(self, s_re, s_im, freq, punto, path):
+        # Expand the user's home directory if the path contains '~'
+        path = os.path.expanduser(path)
+        
+        # Ensure the directory exists
+        if not os.path.exists(path):
+            os.makedirs(path, exist_ok=True)
+        
+        filename = "VNA_data_X" + str(punto[0]) + "_Y" + str(punto[1]) + ".csv"
+        filepath = os.path.join(path, filename)
+        
+        with open(filepath, 'w+') as csv_file:
+            print(filepath + " created")
+            csv_file.write("Frequency,S21_real,S21_imag\n")
+            
+            assert len(s_re) == len(s_im), "Los datos no tienen igual longitud"
+            
+            for indx in range(len(s_re)):
+                str_s = f"{freq[indx]},{s_re[indx]},{s_im[indx]}\n"
+                csv_file.write(str_s)
 
     @staticmethod
     def crear_carpeta(path):
-        mkdir(path)
+        # Expand the user's home directory
+        expanded_path = os.path.expanduser(path)
+
+        # Create the directory and any necessary intermediate directories
+        os.makedirs(expanded_path, exist_ok=True)

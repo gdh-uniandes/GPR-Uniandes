@@ -1,0 +1,3 @@
+[submodule "GPR-V2-Portable/GPR-Portable-V3"]
+	path = GPR-V2-Portable/GPR-Portable-V3
+	url = git@github.com:wampah/GPR-Portable-V3.git
